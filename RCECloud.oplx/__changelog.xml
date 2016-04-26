@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<changelog xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2">
+  <version>2.1</version>
+  <task-change-set user="Evan Sarmiento" date="2016-04-23T18:06:48.332Z" timestamp="2016-04-23T18:06:48.332Z">
+    <change idref="t32" to="t-1" to-position="1" resolved="yes">
+      <change idref="t32" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t32" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t32" attribute="title" type="string" to="Migrate/upgrade essential services."/>
+    </change>
+    <change idref="t1" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t1" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
+    <change idref="t1" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
+    <change idref="t1" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
+    <change idref="t1" attribute="title" type="string" from="Task 1" to="Offload unwanted or time-consuming services/responsibilities." resolved="yes"/>
+    <change idref="t1" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
+    <change idref="t1" attribute="staticCost" type="real" from="0" resolved="yes"/>
+    <change idref="t1" attribute="effort" type="real" from="28800" resolved="yes"/>
+    <change idref="t1" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
+    <change idref="t1" attribute="scheduleType" type="real" from="0" resolved="yes"/>
+    <change idref="t1" attribute="internalAssignments" type="string" from="" resolved="yes"/>
+    <change idref="t1" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
+    <change idref="t1" attribute="internalEffortDone" type="real" from="0" resolved="yes"/>
+    <change idref="t16" to="t1" to-position="0" resolved="yes">
+      <change idref="t16" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t16" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBIZWx2ZXRpY2FOZXVlO30Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7XHJlZDg1XGdyZWVuODVcYmx1ZTg1O30KXHBhcmRcdHg1NjBcdHgxMTIwXHR4MTY4MFx0eDIyNDBcdHgyODAwXHR4MzM2MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0b3IwCgpcZjBcZnMyNCBcY2YyIFJUIHByb3ZpZGVzIGJvdGggYSBob3N0ZWQgc29sdXRpb24gb3IgeW91IGNhbiBoaXJlIGEgY29udHJhY3RvciB0byBkdXBsaWNhdGUgYW5kIHVwZ3JhZGUgeW91ciBzZXJ2aWNlLiBXZSBzaG91bGQgaW52ZXN0aWdhdGUgd2hpY2ggaXMgcHJlZmVyYWJsZS59"/>
+      <change idref="t16" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t16" attribute="title" type="string" to="Migrate RT to secondary provider or utilize RT engineers to upgrade our installation. Investigate providers."/>
+    </change>
+    <change idref="t3" to="t1" to-position="1" resolved="yes">
+      <change idref="t3" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t3" attribute="noEarlierThanConstraintDate" type="date" to="2016-04-25T14:45:00.000Z"/>
+      <change idref="t3" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t3" attribute="title" type="string" to="Migrate tape backup archive to BackBlaze."/>
+    </change>
+    <change idref="t30" to="t1" to-position="2" resolved="yes">
+      <change idref="t30" attribute="effort" type="real" from="28800" to="1152000"/>
+      <change idref="t30" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBIZWx2ZXRpY2FOZXVlO30Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7XHJlZDg1XGdyZWVuODVcYmx1ZTg1O30KXHBhcmRcdHg1NjBcdHgxMTIwXHR4MTY4MFx0eDIyNDBcdHgyODAwXHR4MzM2MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0b3IwCgpcZjBcZnMyNCBcY2YyIEhlcm9rdSBpcyBhIGxheWVyIG9uIHRvcCBvZiBBV1Mgd2hpY2ggcHJvdmlkZXMgcG9pbnQtYW5kLWNsaWNrIGRlcGxveW1lbnQgb2YgUEhQLCBQeXRob24sIFJ1YnksIGFuZCBOb2RlLkpTIGFwcGxpY2F0aW9ucy4gUmVxdWlyZXMgYmFzaWMgZmFtaWxpYXJpdHkgd2l0aCBHaXRodWIufQ=="/>
+      <change idref="t30" attribute="title" type="string" to="Migrate all web services, except ShinyServer, to Heroku"/>
+    </change>
+    <change idref="t5" to="t3" to-position="0" resolved="yes">
+      <change idref="t5" attribute="effort" type="real" from="28800" to="144900"/>
+      <change idref="t5" attribute="title" type="string" to="Develop Python script or utilize other backup application to push data to BackBlaze"/>
+    </change>
+    <change idref="t12" to="t3" to-position="1" resolved="yes">
+      <change idref="t12" attribute="effort" type="real" from="28800" to="144000"/>
+      <change idref="t12" attribute="internalPrerequisitesString" type="string" to="5FS"/>
+      <change idref="t12" attribute="title" type="string" to="Measure performance and reliability of process; backup data to tapes and BackBlaze"/>
+    </change>
+    <change idref="t10" to="t3" to-position="2" resolved="yes">
+      <change idref="t10" attribute="effort" type="real" from="28800" to="144000"/>
+      <change idref="t10" attribute="internalPrerequisitesString" type="string" to="5FS"/>
+      <change idref="t10" attribute="title" type="string" to="Find a service provider who will export all of our tapes to BackBlaze or process these oureselves"/>
+    </change>
+    <change idref="t11" to="t3" to-position="3" resolved="yes">
+      <change idref="t11" attribute="effort" type="real" from="28800" to="57600"/>
+      <change idref="t11" attribute="internalPrerequisitesString" type="string" to="10FS"/>
+      <change idref="t11" attribute="title" type="string" to="Re-write documentation on backing up user, project data, and restoration to conform to BackBlaze backup system."/>
+    </change>
+    <change idref="t33" to="t32" to-position="0" resolved="yes">
+      <change idref="t33" attribute="effort" type="real" from="28800" to="576000"/>
+      <change idref="t33" attribute="noEarlierThanConstraintDate" type="date" to="2016-04-22T20:30:00.000Z"/>
+      <change idref="t33" attribute="title" type="string" to="Upgrade/migrate LDAP to CentOS 6/Amazon"/>
+    </change>
+    <change idref="t23" to="t16" to-position="0" resolved="yes">
+      <change idref="t23" attribute="effort" type="real" from="28800" to="144000"/>
+      <change idref="t23" attribute="title" type="string" to="Research which provider or hosted solution is best."/>
+    </change>
+    <change idref="t25" to="t16" to-position="1" resolved="yes">
+      <change idref="t25" attribute="effort" type="real" from="28800" to="288000"/>
+      <change idref="t25" attribute="internalPrerequisitesString" type="string" to="23FS"/>
+      <change idref="t25" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBIZWx2ZXRpY2FOZXVlO30Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7XHJlZDg1XGdyZWVuODVcYmx1ZTg1O30KXHBhcmRcdHg1NjBcdHgxMTIwXHR4MTY4MFx0eDIyNDBcdHgyODAwXHR4MzM2MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0b3IwCgpcZjBcZnMyNCBcY2YyIFRoaXMgd291bGQgaG9wZWZ1bGx5IHJlcXVpcmUgbGl0dGxlIGVmZm9ydCBvbiBvdXIgcGFydC59"/>
+      <change idref="t25" attribute="title" type="string" to="Work with provider to upgrade and maintain RT installation."/>
+    </change>
+    <change idref="t28" to="t16" to-position="2" resolved="yes">
+      <change idref="t28" attribute="effort" type="real" from="28800" to="144000"/>
+      <change idref="t28" attribute="title" type="string" to="Make an inventory of all of our ‘RT’ scrips and discard those which are no longer necessary for migration."/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Evan Sarmiento" date="2016-04-23T21:49:13.913Z" timestamp="2016-04-23T21:49:13.913Z">
+    <change idref="t3" attribute="noEarlierThanConstraintDate" type="date" from="2016-04-25T14:45:00.000Z" to="2016-04-25T15:30:00.000Z" resolved="yes"/>
+    <change idref="t5" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
+    <change idref="t5" attribute="noEarlierThanConstraintDate" type="date" to="2016-04-25T14:45:00.000Z" resolved="yes"/>
+    <change idref="t10" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
+    <change idref="t10" attribute="noEarlierThanConstraintDate" type="date" to="2016-05-02T15:00:00.000Z" resolved="yes"/>
+    <change idref="t11" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
+    <change idref="t11" attribute="noEarlierThanConstraintDate" type="date" to="2016-05-09T15:00:00.000Z" resolved="yes"/>
+    <change idref="t12" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
+    <change idref="t12" attribute="noEarlierThanConstraintDate" type="date" to="2016-05-02T15:00:00.000Z" resolved="yes"/>
+    <change idref="t28" attribute="noEarlierThanConstraintDate" type="date" to="2016-04-25T12:00:00.000Z" resolved="yes"/>
+    <change idref="t30" attribute="title" type="string" from="Migrate all web services, except ShinyServer, to Heroku" to="Migrate all web services, except ShinyServer, to Heroku, including DVN." resolved="yes"/>
+    <change idref="t41" to="t32" to-position="0" resolved="yes">
+      <change idref="t41" attribute="effort" type="real" from="28800" to="144000"/>
+      <change idref="t41" attribute="title" type="string" to="Migrate appropriate DHCP options to Amazon DHCP"/>
+    </change>
+    <change idref="t40" to="t32" to-position="1" resolved="yes">
+      <change idref="t40" attribute="effort" type="real" from="28800" to="144000"/>
+      <change idref="t40" attribute="title" type="string" to="Migrate DNS to Route 53"/>
+    </change>
+    <change idref="t33" attribute="noEarlierThanConstraintDate" type="date" from="2016-04-22T20:30:00.000Z" to="2016-04-22T20:45:00.000Z" resolved="yes"/>
+    <change idref="t33" attribute="internalAssignments" type="string" from="" to="4" resolved="yes"/>
+    <change idref="t33" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBIZWx2ZXRpY2FOZXVlO30Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7XHJlZDg1XGdyZWVuODVcYmx1ZTg1O30KXHBhcmRcdHg1NjBcdHgxMTIwXHR4MTY4MFx0eDIyNDBcdHgyODAwXHR4MzM2MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0b3IwCgpcZjBcZnMyNCBcY2YyIE1heWJlIHB1dCBzbGF2ZSBob3N0cyBpbiBkaWZmZXJlbnQgem9uZXM/IEV4cG9zZSB2aWEgQW1hem9uIExCLn0=" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Evan Sarmiento" date="2016-04-25T14:07:57.332Z" timestamp="2016-04-25T14:07:57.332Z">
+    <change idref="t66" to="t-1" to-position="2">
+      <change idref="t66" attribute="internalPrerequisitesString" type="string" to="32FS"/>
+      <change idref="t66" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t66" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t66" attribute="title" type="string" to="Rectify Puppet manifests with AWS"/>
+    </change>
+    <change idref="t76" to="t-1" to-position="3">
+      <change idref="t76" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t76" attribute="internalPrerequisitesString" type="string" to="66FS"/>
+      <change idref="t76" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t76" attribute="noEarlierThanConstraintDate" type="date" to="2016-04-25T18:00:00.000Z"/>
+      <change idref="t76" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t76" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t76" attribute="title" type="string" to="AWS migration preparations complete"/>
+    </change>
+    <change idref="t78" to="t-1" to-position="4">
+      <change idref="t78" attribute="internalPrerequisitesString" type="string" to="76SS"/>
+      <change idref="t78" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t78" attribute="noEarlierThanConstraintDate" type="date" to="2016-04-24T04:00:00.000Z"/>
+      <change idref="t78" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t78" attribute="title" type="string" to="Prepare RCE/AWS demo. environment"/>
+    </change>
+    <change idref="t64" to="t1" to-position="0">
+      <change idref="t64" attribute="effort" type="real" from="28800" to="7200"/>
+      <change idref="t64" attribute="internalEffortDone" type="real" from="0" to="7200"/>
+      <change idref="t64" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBIZWx2ZXRpY2FOZXVlO30Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7XHJlZDg1XGdyZWVuODVcYmx1ZTg1O30KXHBhcmRcdHg1NjBcdHgxMTIwXHR4MTY4MFx0eDIyNDBcdHgyODAwXHR4MzM2MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0b3IwCgpcZjBcZnMyNCBcY2YyIFx1cDAgXG5vc3VwZXJzdWIgXHVsbm9uZSBcb2JsaXF1ZW5lc3MwIFxleHBhbnNpb24wIERWTiB3aWxsIHByb2JhYmx5IHJlcXVpcmUgYSBkYXRhIGJhY2t1cC59"/>
+      <change idref="t64" attribute="title" type="string" to="Migrate/remove Redmine"/>
+    </change>
+    <change idref="t30" attribute="isGroup" type="real" from="0" to="1"/>
+    <change idref="t30" attribute="multiResourceWorkType" type="real" from="0"/>
+    <change idref="t30" attribute="isSplittableTask" type="real" from="1"/>
+    <change idref="t30" attribute="taskType" type="real" from="0" to="2"/>
+    <change idref="t30" attribute="resourceAssignmentType" type="real" from="0"/>
+    <change idref="t30" attribute="staticCost" type="real" from="0"/>
+    <change idref="t30" attribute="effort" type="real" from="1152000"/>
+    <change idref="t30" attribute="isSplitChunk" type="real" from="0"/>
+    <change idref="t30" attribute="scheduleType" type="real" from="0"/>
+    <change idref="t30" attribute="internalAssignments" type="string" from=""/>
+    <change idref="t30" attribute="isSplitTask" type="real" from="0"/>
+    <change idref="t30" attribute="internalEffortDone" type="real" from="0"/>
+    <change idref="t59" to="t30" to-position="0">
+      <change idref="t59" attribute="effort" type="real" from="28800" to="57600"/>
+      <change idref="t59" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBIZWx2ZXRpY2FOZXVlO30Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7XHJlZDg1XGdyZWVuODVcYmx1ZTg1O30KXHBhcmRcdHg1NjBcdHgxMTIwXHR4MTY4MFx0eDIyNDBcdHgyODAwXHR4MzM2MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0b3IwCgpcZjBcZnMyNCBcY2YyIFx1cDAgXG5vc3VwZXJzdWIgXHVsbm9uZSBcb2JsaXF1ZW5lc3MwIFxleHBhbnNpb24wIFRoaXMgc2hvdWxkIGFjdHVhbGx5IGdpdmUgdGhlbSB3aGF0IHRoZXkgd2FudCBcJzk3IGxhdGVzdCBQeXRob24sIGF1dG9tYXRpY2FsbHkgcHJvdmlzaW9uaW5nIE5HSU5YLCBldGMufQ=="/>
+      <change idref="t59" attribute="title" type="string" to="Give Raman access to a basic Heroku account and ask him to deploy Dataverse Network to its and its components."/>
+    </change>
+    <change idref="t54" to="t30" to-position="1">
+      <change idref="t54" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t54" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBIZWx2ZXRpY2FOZXVlO30Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7XHJlZDg1XGdyZWVuODVcYmx1ZTg1O30KXHBhcmRcdHg1NjBcdHgxMTIwXHR4MTY4MFx0eDIyNDBcdHgyODAwXHR4MzM2MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0b3IwCgpcZjBcZnMyNCBcY2YyIFx1cDAgXG5vc3VwZXJzdWIgXHVsbm9uZSBcb2JsaXF1ZW5lc3MwIFxleHBhbnNpb24wIEFzayBMYXRhbnlhIHdoaWNoIFBIUCBhcHBsaWNhdGlvbiB3ZSBjYW4gbWlncmF0ZSBmb3IgdGVzdGluZyBcJzk3IG9uZSB0aGF0IGNvbnRhaW5zIG5vIGltcG9ydGFudC9zZW5zaXRpdmUgZGF0YS4gVGFrZSB0aGlzIFBIUCBhcHBsaWNhdGlvbiBmcm9tIC9uZnMvd3d3IGFuZCBtaWdyYXRlIGl0IHRvIEhlcm9rdS59"/>
+      <change idref="t54" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t54" attribute="title" type="string" to="Create a Heroku account and deploy Latanya’s PHP application to it."/>
+    </change>
+    <change idref="t53" to="t30" to-position="2">
+      <change idref="t53" attribute="effort" type="real" from="28800" to="86400"/>
+      <change idref="t53" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBIZWx2ZXRpY2FOZXVlO30Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7XHJlZDg1XGdyZWVuODVcYmx1ZTg1O30KXHBhcmRcdHg1NjBcdHgxMTIwXHR4MTY4MFx0eDIyNDBcdHgyODAwXHR4MzM2MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0b3IwCgpcZjBcZnMyNCBcY2YyIFx1cDAgXG5vc3VwZXJzdWIgXHVsbm9uZSBcb2JsaXF1ZW5lc3MwIFxleHBhbnNpb24wIENvbGxlY3QgdGhlIGFtb3VudCBvZiB3ZWJzaXRlcyB3ZSBob3N0LiBUaGUgYW1vdW50IG9mIFBIUCBhbmQvb3IgUHl0aG9uIHdlYnNpdGVzIHdlIGhvc3QgZG9lcyBub3QgYWNjb3VudCBmb3IgdmVyeSBtdWNoLn0="/>
+      <change idref="t53" attribute="title" type="string" to="Work with Heroku to determine enterprise pricing for the amount of web sites we host."/>
+    </change>
+    <change idref="t56" to="t30" to-position="3">
+      <change idref="t56" attribute="effort" type="real" from="28800" to="144000"/>
+      <change idref="t56" attribute="title" type="string" to="Determine the best method to migrate our users permissions to Heroku: How much CPU time should they get? How much memory should they get? Should they be allowed to provision as many websites as they want, etc."/>
+    </change>
+    <change idref="t57" to="t30" to-position="4">
+      <change idref="t57" attribute="effort" type="real" from="28800" to="144000"/>
+      <change idref="t57" attribute="title" type="string" to="Determine the best method for file storage on Heroku — using an S3 bucket, connecting to our local NetApp, etc."/>
+    </change>
+    <change idref="t58" to="t30" to-position="5">
+      <change idref="t58" attribute="effort" type="real" from="28800" to="86400"/>
+      <change idref="t58" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBIZWx2ZXRpY2FOZXVlO30Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7XHJlZDg1XGdyZWVuODVcYmx1ZTg1O30KXHBhcmRcdHg1NjBcdHgxMTIwXHR4MTY4MFx0eDIyNDBcdHgyODAwXHR4MzM2MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0b3IwCgpcZjBcZnMyNCBcY2YyIFx1cDAgXG5vc3VwZXJzdWIgXHVsbm9uZSBcb2JsaXF1ZW5lc3MwIFxleHBhbnNpb24wIFdlIHByZWZlciBhIHNlbGYtc2VydmljZSBtb2RlbC4gSWYgcG9zc2libGUsIG1ha2UgdXNlcnMgcGVyZm9ybSB0aGUgbWFqb3JpdHkgb2YgdGhlIHdvcmssIGFwYXJ0IGZyb20gaW5pdGlhbCBhY2NvdW50IHNldHVwLn0="/>
+      <change idref="t58" attribute="title" type="string" to="Work with Gary and Cris to decide how much support we provide for users in the Heroku environment: Do we help them setup GitHub repositories? Do we help them with basic PHP programming fundamentals, permissions? "/>
+    </change>
+    <change idref="t62" to="t30" to-position="6">
+      <change idref="t62" attribute="title" type="string" to="Migrate all sites to Heroku. Provide a deadline."/>
+    </change>
+    <change idref="t63" to="t30" to-position="7">
+      <change idref="t63" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBIZWx2ZXRpY2FOZXVlO30Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7XHJlZDg1XGdyZWVuODVcYmx1ZTg1O30KXHBhcmRcdHg1NjBcdHgxMTIwXHR4MTY4MFx0eDIyNDBcdHgyODAwXHR4MzM2MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0b3IwCgpcZjBcZnMyNCBcY2YyIFx1cDAgXG5vc3VwZXJzdWIgXHVsbm9uZSBcb2JsaXF1ZW5lc3MwIFxleHBhbnNpb24wIFdlIG1heSBuZWVkIHRvIHByb3Zpc2lvbiBhIEplbmtpbnMgaW5zdGFuY2UgZm9yIHRoZW0sIGFsdGhvdWdoIHRoaXMgbWF5IGJlIHByb3ZpZGVkIGJ5IEhlcm9rdSBhcyB3ZWxsLn0="/>
+      <change idref="t63" attribute="title" type="string" to="Ask DVN to migrate their entire toolchain to Heroku. Provide a deadline."/>
+    </change>
+    <change idref="t32" attribute="internalPrerequisitesString" type="string" to="1FS"/>
+    <change idref="t55" to="t54" to-position="0">
+      <change idref="t55" attribute="effort" type="real" from="28800" to="144000"/>
+      <change idref="t55" attribute="title" type="string" to="If successful, work with Latanya to migrate one of her websites entirely to Heroku to test the viability of this environment."/>
+    </change>
+    <change idref="t67" to="t66" to-position="0">
+      <change idref="t67" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t67" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t67" attribute="title" type="string" to="Migrate hmdc-admin repository to GitHub"/>
+    </change>
+    <change idref="t72" to="t66" to-position="1">
+      <change idref="t72" attribute="effort" type="real" from="28800" to="345600"/>
+      <change idref="t72" attribute="title" type="string" to="Test all pertinent modules on AWS, make changes accordingly."/>
+    </change>
+    <change idref="t73" to="t66" to-position="2">
+      <change idref="t73" attribute="effort" type="real" from="28800" to="144000"/>
+      <change idref="t73" attribute="title" type="string" to="Hiera-ify all data structures currently used in hmdc-admin, adding an $::operatingsystem entry to the Hiera tree."/>
+    </change>
+    <change idref="t74" to="t66" to-position="3">
+      <change idref="t74" attribute="effort" type="real" from="28800" to="288000"/>
+      <change idref="t74" attribute="title" type="string" to="Write spec tests for all modules which lack spec tests."/>
+    </change>
+    <change idref="t68" to="t67" to-position="0">
+      <change idref="t68" attribute="effort" type="real" from="28800" to="144000"/>
+      <change idref="t68" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBIZWx2ZXRpY2FOZXVlO30Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7XHJlZDg1XGdyZWVuODVcYmx1ZTg1O30KXHBhcmRcdHg1NjBcdHgxMTIwXHR4MTY4MFx0eDIyNDBcdHgyODAwXHR4MzM2MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0b3IwCgpcZjBcZnMyNCBcY2YyIFx1cDAgXG5vc3VwZXJzdWIgXHVsbm9uZSBcb2JsaXF1ZW5lc3MwIFxleHBhbnNpb24wIFRoZXJlIG1heSBiZSBhIGZhc3RlciB3YXkgb2YgZG9pbmcgdGhpcy4gV2UgbWF5IGp1c3Qgd2FudCB0byB0cnVuY2F0ZSBvdXIgR2l0IGhpc3RvcnkuIFNpbWlsYXJseSwgYmVjYXVzZSB3ZSBhcmUgbW92aW5nIHRvIHRoZSBDbG91ZCwgd2UgbWF5IG5vdCBuZWVkIHBhc3N3b3JkcyBsaWtlIHRoZSBTZXJ2ZXIgUmVwb3J0cyBwYXNzd29yZCBzdGF0aWNhbGx5IGRlZmluZWQgaW5zaWRlIG91ciByZXBvc2l0b3J5Ln0="/>
+      <change idref="t68" attribute="title" type="string" to="Mine hmdc-admin for passwords and remove or place passwords elsewhere."/>
+    </change>
+    <change idref="t69" to="t67" to-position="1">
+      <change idref="t69" attribute="title" type="string" to="Push de-password-ified hmdc-admin repository to GitHub."/>
+    </change>
+    <change idref="t71" to="t67" to-position="2">
+      <change idref="t71" attribute="effort" type="real" from="28800" to="3600"/>
+      <change idref="t71" attribute="title" type="string" to="Retire HUIT GIT account, but keep a backup of hmdc-admin on NFS in case need to look at commit history."/>
+    </change>
+    <change idref="t86" to="t78" to-position="0">
+      <change idref="t86" attribute="effort" type="real" from="28800" to="115200"/>
+      <change idref="t86" attribute="internalAssignments" type="string" from="" to="4"/>
+      <change idref="t86" attribute="noEarlierThanConstraintDate" type="date" to="2016-04-22T20:30:00.000Z"/>
+      <change idref="t86" attribute="title" type="string" to="Reconfigure AWS networking to expose a public interface for NX4 portal"/>
+    </change>
+    <change idref="t80" to="t78" to-position="1">
+      <change idref="t80" attribute="effort" type="real" from="28800" to="144000"/>
+      <change idref="t80" attribute="noEarlierThanConstraintDate" type="date" to="2016-04-24T04:00:00.000Z"/>
+      <change idref="t80" attribute="title" type="string" to="Install NX4/5 Portal (?)"/>
+    </change>
+    <change idref="t81" to="t78" to-position="2">
+      <change idref="t81" attribute="effort" type="real" from="28800" to="144000"/>
+      <change idref="t81" attribute="noEarlierThanConstraintDate" type="date" to="2016-04-25T12:00:00.000Z"/>
+      <change idref="t81" attribute="title" type="string" to="Install NX4/5 login nodes"/>
+    </change>
+    <change idref="t83" to="t78" to-position="3">
+      <change idref="t83" attribute="effort" type="real" from="28800" to="144000"/>
+      <change idref="t83" attribute="noEarlierThanConstraintDate" type="date" to="2016-04-25T12:00:00.000Z"/>
+      <change idref="t83" attribute="title" type="string" to="Deploy HTCondor collector/negotiator"/>
+    </change>
+    <change idref="t82" to="t78" to-position="4">
+      <change idref="t82" attribute="effort" type="real" from="28800" to="144000"/>
+      <change idref="t82" attribute="noEarlierThanConstraintDate" type="date" to="2016-04-25T12:00:00.000Z"/>
+      <change idref="t82" attribute="title" type="string" to="Deploy 2..3 high memory EC2 instances for HTCondor startd(s), permanent."/>
+    </change>
+  </task-change-set>
+  <resource-change-set user="Evan Sarmiento" date="2016-04-23T18:06:48.332Z" timestamp="2016-04-23T18:06:48.332Z">
+    <change idref="r2" to="r-1" to-position="1" resolved="yes">
+      <change idref="r2" attribute="name" type="string" to="Brad"/>
+      <change idref="r2" attribute="unitsAvailable" type="real" from="1" to="0"/>
+    </change>
+    <change idref="r3" to="r-1" to-position="2" resolved="yes">
+      <change idref="r3" attribute="name" type="string" to="Sarah"/>
+      <change idref="r3" attribute="unitsAvailable" type="real" from="1" to="0"/>
+    </change>
+    <change idref="r4" to="r-1" to-position="3" resolved="yes">
+      <change idref="r4" attribute="name" type="string" to="Bill"/>
+      <change idref="r4" attribute="unitsAvailable" type="real" from="1" to="0"/>
+    </change>
+    <change idref="r1" attribute="unitsAvailable" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="r1" attribute="name" type="string" from="Resource 1" to="Evan" resolved="yes"/>
+  </resource-change-set>
+  <resource-change-set user="Evan Sarmiento" date="2016-04-23T21:49:13.912Z" timestamp="2016-04-23T21:49:13.912Z">
+    <change idref="r1" attribute="unitsAvailable" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="r2" attribute="unitsAvailable" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="r3" attribute="unitsAvailable" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="r4" attribute="unitsAvailable" type="real" from="0" to="1" resolved="yes"/>
+  </resource-change-set>
+  <metadata-change-set user="Evan Sarmiento" date="2016-04-23T18:06:48.330Z" timestamp="2016-04-23T18:06:48.330Z">
+    <change idref="m1" attribute="fixedDate" type="date" from="2007-01-01T20:00:00.000Z" to="2016-04-23T04:00:00.000Z" resolved="yes"/>
+  </metadata-change-set>
+</changelog>

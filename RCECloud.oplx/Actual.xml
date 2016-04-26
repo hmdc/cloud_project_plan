@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scenario xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opns="http://www.omnigroup.com/namespace/OmniPlan/v2" id="keAedYKJIgZ">
+  <start-date>2016-04-23T04:00:00.000Z</start-date>
+  <prototype-task>
+    <task id="t-2">
+      <title>Task 1</title>
+      <effort>28800</effort>
+    </task>
+  </prototype-task>
+  <prototype-task>
+    <task id="t-3">
+      <title>Milestone 1</title>
+      <type>milestone</type>
+    </task>
+  </prototype-task>
+  <prototype-task>
+    <task id="t-4">
+      <title>Group 1</title>
+      <type>group</type>
+    </task>
+  </prototype-task>
+  <prototype-resource>
+    <resource id="r-2">
+      <name>Resource 1</name>
+      <type>Staff</type>
+    </resource>
+  </prototype-resource>
+  <prototype-resource>
+    <resource id="r-3">
+      <name>Equipment 1</name>
+      <type>Equipment</type>
+    </resource>
+  </prototype-resource>
+  <prototype-resource>
+    <resource id="r-4">
+      <name>Material 1</name>
+      <type>Material</type>
+      <units-available>0</units-available>
+      <efficiency>0</efficiency>
+    </resource>
+  </prototype-resource>
+  <prototype-resource>
+    <resource id="r-5">
+      <name>Group 1</name>
+      <type>Group</type>
+    </resource>
+  </prototype-resource>
+  <top-resource idref="r-1"/>
+  <resource id="r-1">
+    <type>Group</type>
+    <child-resource idref="r1"/>
+    <child-resource idref="r2"/>
+    <child-resource idref="r3"/>
+    <child-resource idref="r4"/>
+  </resource>
+  <resource id="r1">
+    <name>Evan</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r2">
+    <name>Brad</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r3">
+    <name>Sarah</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r4">
+    <name>Bill</name>
+    <type>Staff</type>
+  </resource>
+  <top-task idref="t-1"/>
+  <task id="t-1">
+    <type>group</type>
+    <child-task idref="t1"/>
+    <child-task idref="t32"/>
+    <child-task idref="t66"/>
+    <child-task idref="t76"/>
+    <child-task idref="t78"/>
+  </task>
+  <task id="t1">
+    <title>Offload unwanted or time-consuming services/responsibilities.</title>
+    <type>group</type>
+    <child-task idref="t64"/>
+    <child-task idref="t16"/>
+    <child-task idref="t3"/>
+    <child-task idref="t30"/>
+  </task>
+  <task id="t3">
+    <title>Migrate tape backup archive to BackBlaze.</title>
+    <type>group</type>
+    <start-constraint-date>2016-04-25T15:30:00.000Z</start-constraint-date>
+    <child-task idref="t5"/>
+    <child-task idref="t12"/>
+    <child-task idref="t10"/>
+    <child-task idref="t11"/>
+    <start-no-earlier-than>2016-04-25T15:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t5">
+    <title>Develop Python script or utilize other backup application to push data to BackBlaze</title>
+    <effort>144900</effort>
+    <start-constraint-date>2016-04-25T14:45:00.000Z</start-constraint-date>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2016-04-25T14:45:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t10">
+    <title>Find a service provider who will export all of our tapes to BackBlaze or process these oureselves</title>
+    <effort>144000</effort>
+    <start-constraint-date>2016-05-02T15:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t5"/>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2016-05-02T15:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t11">
+    <title>Re-write documentation on backing up user, project data, and restoration to conform to BackBlaze backup system.</title>
+    <effort>57600</effort>
+    <start-constraint-date>2016-05-09T15:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t10"/>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2016-05-09T15:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t12">
+    <title>Measure performance and reliability of process; backup data to tapes and BackBlaze</title>
+    <effort>144000</effort>
+    <start-constraint-date>2016-05-02T15:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t5"/>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2016-05-02T15:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t16">
+    <title>Migrate RT to secondary provider or utilize RT engineers to upgrade our installation. Investigate providers.</title>
+    <type>group</type>
+    <child-task idref="t23"/>
+    <child-task idref="t25"/>
+    <child-task idref="t28"/>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>RT provides both a hosted solution or you can hire a contractor to duplicate and upgrade your service. We should investigate which is preferable.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+  </task>
+  <task id="t23">
+    <title>Research which provider or hosted solution is best.</title>
+    <effort>144000</effort>
+  </task>
+  <task id="t25">
+    <title>Work with provider to upgrade and maintain RT installation.</title>
+    <effort>288000</effort>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>This would hopefully require little effort on our part.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <prerequisite-task idref="t23"/>
+  </task>
+  <task id="t28">
+    <title>Make an inventory of all of our ‘RT’ scrips and discard those which are no longer necessary for migration.</title>
+    <effort>144000</effort>
+    <start-constraint-date>2016-04-25T12:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2016-04-25T12:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t30">
+    <title>Migrate all web services, except ShinyServer, to Heroku, including DVN.</title>
+    <type>group</type>
+    <child-task idref="t59"/>
+    <child-task idref="t54"/>
+    <child-task idref="t53"/>
+    <child-task idref="t56"/>
+    <child-task idref="t57"/>
+    <child-task idref="t58"/>
+    <child-task idref="t62"/>
+    <child-task idref="t63"/>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Heroku is a layer on top of AWS which provides point-and-click deployment of PHP, Python, Ruby, and Node.JS applications. Requires basic familiarity with Github.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+  </task>
+  <task id="t32">
+    <title>Migrate/upgrade essential services.</title>
+    <type>group</type>
+    <child-task idref="t41"/>
+    <child-task idref="t40"/>
+    <child-task idref="t33"/>
+    <prerequisite-task idref="t1"/>
+  </task>
+  <task id="t33">
+    <title>Upgrade/migrate LDAP to CentOS 6/Amazon</title>
+    <effort>576000</effort>
+    <start-constraint-date>2016-04-22T20:45:00.000Z</start-constraint-date>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Maybe put slave hosts in different zones? Expose via Amazon LB.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2016-04-22T20:45:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t40">
+    <title>Migrate DNS to Route 53</title>
+    <effort>144000</effort>
+  </task>
+  <task id="t41">
+    <title>Migrate appropriate DHCP options to Amazon DHCP</title>
+    <effort>144000</effort>
+  </task>
+  <task id="t53">
+    <title>Work with Heroku to determine enterprise pricing for the amount of web sites we host.</title>
+    <effort>86400</effort>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Collect the amount of websites we host. The amount of PHP and/or Python websites we host does not account for very much.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+  </task>
+  <task id="t54">
+    <title>Create a Heroku account and deploy Latanya’s PHP application to it.</title>
+    <type>group</type>
+    <child-task idref="t55"/>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Ask Latanya which PHP application we can migrate for testing — one that contains no important/sensitive data. Take this PHP application from /nfs/www and migrate it to Heroku.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+  </task>
+  <task id="t55">
+    <title>If successful, work with Latanya to migrate one of her websites entirely to Heroku to test the viability of this environment.</title>
+    <effort>144000</effort>
+  </task>
+  <task id="t56">
+    <title>Determine the best method to migrate our users permissions to Heroku: How much CPU time should they get? How much memory should they get? Should they be allowed to provision as many websites as they want, etc.</title>
+    <effort>144000</effort>
+  </task>
+  <task id="t57">
+    <title>Determine the best method for file storage on Heroku — using an S3 bucket, connecting to our local NetApp, etc.</title>
+    <effort>144000</effort>
+  </task>
+  <task id="t58">
+    <title>Work with Gary and Cris to decide how much support we provide for users in the Heroku environment: Do we help them setup GitHub repositories? Do we help them with basic PHP programming fundamentals, permissions? </title>
+    <effort>86400</effort>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>We prefer a self-service model. If possible, make users perform the majority of the work, apart from initial account setup.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+  </task>
+  <task id="t59">
+    <title>Give Raman access to a basic Heroku account and ask him to deploy Dataverse Network to its and its components.</title>
+    <effort>57600</effort>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>This should actually give them what they want — latest Python, automatically provisioning NGINX, etc.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+  </task>
+  <task id="t62">
+    <title>Migrate all sites to Heroku. Provide a deadline.</title>
+    <effort>28800</effort>
+  </task>
+  <task id="t63">
+    <title>Ask DVN to migrate their entire toolchain to Heroku. Provide a deadline.</title>
+    <effort>28800</effort>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>We may need to provision a Jenkins instance for them, although this may be provided by Heroku as well.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+  </task>
+  <task id="t64">
+    <title>Migrate/remove Redmine</title>
+    <effort>7200</effort>
+    <effort-done>7200</effort-done>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>DVN will probably require a data backup.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+  </task>
+  <task id="t66">
+    <title>Rectify Puppet manifests with AWS</title>
+    <type>group</type>
+    <child-task idref="t67"/>
+    <child-task idref="t72"/>
+    <child-task idref="t73"/>
+    <child-task idref="t74"/>
+    <prerequisite-task idref="t32"/>
+  </task>
+  <task id="t67">
+    <title>Migrate hmdc-admin repository to GitHub</title>
+    <type>group</type>
+    <child-task idref="t68"/>
+    <child-task idref="t69"/>
+    <child-task idref="t71"/>
+  </task>
+  <task id="t68">
+    <title>Mine hmdc-admin for passwords and remove or place passwords elsewhere.</title>
+    <effort>144000</effort>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>There may be a faster way of doing this. We may just want to truncate our Git history. Similarly, because we are moving to the Cloud, we may not need passwords like the Server Reports password statically defined inside our repository.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+  </task>
+  <task id="t69">
+    <title>Push de-password-ified hmdc-admin repository to GitHub.</title>
+    <effort>28800</effort>
+  </task>
+  <task id="t71">
+    <title>Retire HUIT GIT account, but keep a backup of hmdc-admin on NFS in case need to look at commit history.</title>
+    <effort>3600</effort>
+  </task>
+  <task id="t72">
+    <title>Test all pertinent modules on AWS, make changes accordingly.</title>
+    <effort>345600</effort>
+  </task>
+  <task id="t73">
+    <title>Hiera-ify all data structures currently used in hmdc-admin, adding an $::operatingsystem entry to the Hiera tree.</title>
+    <effort>144000</effort>
+  </task>
+  <task id="t74">
+    <title>Write spec tests for all modules which lack spec tests.</title>
+    <effort>288000</effort>
+  </task>
+  <task id="t76">
+    <title>AWS migration preparations complete</title>
+    <type>milestone</type>
+    <start-constraint-date>2016-04-25T18:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t66"/>
+    <start-no-earlier-than>2016-04-25T18:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t78">
+    <title>Prepare RCE/AWS demo. environment</title>
+    <type>group</type>
+    <start-constraint-date>2016-04-24T04:00:00.000Z</start-constraint-date>
+    <child-task idref="t86"/>
+    <child-task idref="t80"/>
+    <child-task idref="t81"/>
+    <child-task idref="t83"/>
+    <child-task idref="t82"/>
+    <prerequisite-task idref="t76" kind="SS"/>
+    <start-no-earlier-than>2016-04-24T04:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t80">
+    <title>Install NX4/5 Portal (?)</title>
+    <effort>144000</effort>
+    <start-constraint-date>2016-04-24T04:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2016-04-24T04:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t81">
+    <title>Install NX4/5 login nodes</title>
+    <effort>144000</effort>
+    <start-constraint-date>2016-04-25T12:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2016-04-25T12:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t82">
+    <title>Deploy 2..3 high memory EC2 instances for HTCondor startd(s), permanent.</title>
+    <effort>144000</effort>
+    <start-constraint-date>2016-04-25T12:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2016-04-25T12:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t83">
+    <title>Deploy HTCondor collector/negotiator</title>
+    <effort>144000</effort>
+    <start-constraint-date>2016-04-25T12:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2016-04-25T12:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t86">
+    <title>Reconfigure AWS networking to expose a public interface for NX4 portal</title>
+    <effort>115200</effort>
+    <start-constraint-date>2016-04-22T20:30:00.000Z</start-constraint-date>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2016-04-22T20:30:00.000Z</start-no-earlier-than>
+  </task>
+  <critical-path root="-1" enabled="false" resources="false">
+    <color r="1" g="0.5" b="0.5"/>
+  </critical-path>
+</scenario>
