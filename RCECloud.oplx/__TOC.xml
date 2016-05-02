@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <omniplan xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opnx="http://www.omnigroup.com/namespace/OmniPlan/v2">
-  <window x="1440" y="-300" w="1920" h="1158">
+  <window x="1461" y="-139" w="1887" h="877">
     <editing-scenario>keAedYKJIgZ</editing-scenario>
     <view>task</view>
     <change-tracking/>
     <status-display>basic</status-display>
     <task-view>
-      <split-view-divider-position>756</split-view-divider-position>
-      <outline x="0" y="0" w="756" h="1120">
+      <split-view-divider-position>801</split-view-divider-position>
+      <outline x="0" y="0" w="801" h="779">
         <column name="Violations" width="20"/>
         <column name="Notes" width="20"/>
-        <column name="Title" width="641"/>
+        <column name="Title" width="686"/>
         <column name="Effort" width="70"/>
-        <expanded-items idrefs="t30 t78 t67 t54"/>
+        <expanded-items idrefs="t110 t78 t32 t67 t3 t54 t96"/>
         <expanded-item-notes idrefs="t30 t59 t33 t16 t58 t68 t25 t54 t64 t63 t53"/>
-        <selected-items-at-filter-time idrefs="t83 t75 t67 t71 t84 t76 t68 t80 t72 t64 t85 t77 t69 t81 t73 t65 t86 t78 t82 t74 t66 t79 t70"/>
+        <selected-items-at-filter-time idrefs="t105 t117 t96 t64 t113 t83 t101 t78 t97 t106 t71 t90 t98 t66 t114 t102 t110 t118 t72 t91 t99 t67 t86 t107 t73 t119 t103 t92 t68 t115 t111 t87 t74 t93 t69 t80 t88 t108 t104 t94 t116 t100 t81 t89 t112 t76 t95 t82 t109"/>
       </outline>
-      <gantt-view x="-10" y="0" w="1147" h="1120">
+      <gantt-view x="-54" y="0" w="1069" h="779">
         <view-mode>actual</view-mode>
         <dependency-lines/>
         <constraints/>
@@ -63,14 +63,14 @@
     </task-view>
     <resource-view>
       <split-view-divider-position>306</split-view-divider-position>
-      <outline x="0" y="0" w="291" h="556">
+      <outline x="0" y="0" w="291" h="779">
         <column name="Notes" width="20"/>
         <column name="Type" width="49"/>
         <column name="Resource" width="135"/>
         <column name="#" width="75"/>
         <selected-items-at-filter-time idrefs="r4 r3 r2"/>
       </outline>
-      <timeline x="-691" y="0" w="901" h="556">
+      <timeline x="10714" y="0" w="1536" h="779">
         <offtime-display>none</offtime-display>
         <show-project-end/>
         <task-bar-label task-type="group" position="left">
@@ -114,10 +114,10 @@
     </resource-view>
     <calendar>
       <split-view-divider-position>290</split-view-divider-position>
-      <outline x="0" y="0" w="275" h="532">
+      <outline x="0" y="0" w="275" h="596">
         <column name="Notes" width="20"/>
         <column name="Type" width="49"/>
-        <column name="Resource" width="139"/>
+        <column name="Resource" width="160"/>
         <column name="Custom Work Week" width="20"/>
         <column name="Schedule Exception" width="20"/>
       </outline>
@@ -137,7 +137,7 @@ End:</group-table-style>
     </network-view>
   </window>
   <project>
-    <next-task-id>87</next-task-id>
+    <next-task-id>125</next-task-id>
     <next-resource-id>8</next-resource-id>
     <scenario id="keAedYKJIgZ" name="Actual" filename="Actual.xml"/>
     <date-display dates="true" times="true" seconds="false"/>
