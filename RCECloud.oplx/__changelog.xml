@@ -156,216 +156,33 @@
     <change idref="t66" attribute="title" type="string" from="Rectify Puppet manifests with AWS" to="Rectify Puppet manifests with AWS/Cloud"/>
     <change idref="t76" attribute="title" type="string" from="AWS migration preparations complete" to="AWS/Cloud migration preparations complete"/>
   </task-change-set>
-  <task-change-set user="Evan Sarmiento" date="2016-05-02T17:13:44.859Z" timestamp="2016-05-02T17:13:44.859Z">
-    <change idref="t109" to="t-1" to-position="3" resolved="yes">
-      <change idref="t109" attribute="effort" type="real" from="28800" to="288000"/>
-      <change idref="t109" attribute="internalAssignments" type="string" from="" to="4"/>
-      <change idref="t109" attribute="noEarlierThanConstraintDate" type="date" to="2016-07-29T20:45:00.000Z"/>
-      <change idref="t109" attribute="title" type="string" to="Create cloud agnostic template for RCE deployment"/>
+  <task-change-set user="Evan Sarmiento" date="2016-05-04T19:47:46.035Z" timestamp="2016-05-04T19:47:46.035Z">
+    <change idref="t130" to="t1" to-position="0">
+      <change idref="t130" attribute="internalEffortDone" type="real" from="0" to="28800"/>
+      <change idref="t130" attribute="noEarlierThanConstraintDate" type="date" to="2016-05-04T12:00:00.000Z"/>
+      <change idref="t130" attribute="title" type="string" to="Automate patching procedure"/>
     </change>
-    <change idref="t96" to="t-1" to-position="6" resolved="yes">
-      <change idref="t96" attribute="internalPrerequisitesString" type="string" to="78SS"/>
-      <change idref="t96" attribute="isGroup" type="real" from="0" to="1"/>
-      <change idref="t96" attribute="noEarlierThanConstraintDate" type="date" to="2016-05-02T12:00:00.000Z"/>
-      <change idref="t96" attribute="taskType" type="real" from="0" to="2"/>
-      <change idref="t96" attribute="title" type="string" to="Production-ize RCE AWS/AZURE environment"/>
+    <change idref="t131" to="t30" to-position="4">
+      <change idref="t131" attribute="noEarlierThanConstraintDate" type="date" to="2016-05-04T12:00:00.000Z"/>
+      <change idref="t131" attribute="title" type="string" to="Certify Heroku with OGC"/>
     </change>
-    <change idref="t110" to="t-1" to-position="7" resolved="yes">
-      <change idref="t110" attribute="internalPrerequisitesString" type="string" to="96SS"/>
-      <change idref="t110" attribute="isGroup" type="real" from="0" to="1"/>
-      <change idref="t110" attribute="noEarlierThanConstraintDate" type="date" to="2016-05-02T12:00:00.000Z"/>
-      <change idref="t110" attribute="taskType" type="real" from="0" to="2"/>
-      <change idref="t110" attribute="title" type="string" to="Migrate most services to Cloud"/>
-    </change>
-    <change idref="t1" attribute="noEarlierThanConstraintDate" type="date" to="2016-04-25T12:15:00.000Z" resolved="yes"/>
-    <change idref="t10" from="t3" from-position="4" resolved="yes">
-      <change idref="t10" attribute="effort" type="real" from="28800" to="144000"/>
-      <change idref="t10" attribute="internalAssignments" type="string" from="" to="1"/>
-      <change idref="t10" attribute="internalPrerequisitesString" type="string" to="5FS"/>
-      <change idref="t10" attribute="noEarlierThanConstraintDate" type="date" to="2016-05-02T15:00:00.000Z"/>
-      <change idref="t10" attribute="title" type="string" to="Find a service provider who will export all of our tapes to BackBlaze or process these oureselves"/>
-    </change>
-    <change idref="t90" to="t3" to-position="0" resolved="yes">
-      <change idref="t90" attribute="internalAssignments" type="string" from="" to="1"/>
-      <change idref="t90" attribute="noEarlierThanConstraintDate" type="date" to="2016-07-29T20:45:00.000Z"/>
-      <change idref="t90" attribute="title" type="string" to="Get BackBlaze certified with OGC/HUIT"/>
-    </change>
-    <change idref="t92" to="t3" to-position="1" resolved="yes">
-      <change idref="t92" attribute="internalAssignments" type="string" from="" to="3"/>
-      <change idref="t92" attribute="noEarlierThanConstraintDate" type="date" to="2016-08-01T12:00:00.000Z"/>
-      <change idref="t92" attribute="title" type="string" to="Buy and install host which performs backups"/>
-    </change>
-    <change idref="t5" attribute="title" type="string" from="Use Duplicity or HashBackup" to="Use HashBackup" resolved="yes"/>
-    <change idref="t5" attribute="noEarlierThanConstraintDate" type="date" from="2016-04-25T14:45:00.000Z" to="2016-08-01T12:00:00.000Z" resolved="yes"/>
-    <change idref="t11" attribute="internalPrerequisitesString" type="string" from="10FS" resolved="yes"/>
-    <change idref="t11" attribute="noEarlierThanConstraintDate" type="date" from="2016-05-09T15:00:00.000Z" to="2016-08-01T12:00:00.000Z" resolved="yes"/>
-    <change idref="t23" attribute="internalAssignments" type="string" from="" to="4" resolved="yes"/>
-    <change idref="t23" attribute="noEarlierThanConstraintDate" type="date" to="2016-07-29T20:45:00.000Z" resolved="yes"/>
-    <change idref="t25" attribute="internalAssignments" type="string" from="" to="4" resolved="yes"/>
-    <change idref="t25" attribute="noEarlierThanConstraintDate" type="date" to="2016-08-05T20:15:00.000Z" resolved="yes"/>
-    <change idref="t28" attribute="noEarlierThanConstraintDate" type="date" from="2016-04-25T12:00:00.000Z" to="2016-07-29T20:45:00.000Z" resolved="yes"/>
-    <change idref="t28" attribute="internalAssignments" type="string" from="" to="4" resolved="yes"/>
-    <change idref="t94" to="t30" to-position="0" resolved="yes">
-      <change idref="t94" attribute="effort" type="real" from="28800" to="144000"/>
-      <change idref="t94" attribute="internalAssignments" type="string" from="" to="1"/>
-      <change idref="t94" attribute="noEarlierThanConstraintDate" type="date" to="2016-07-29T20:45:00.000Z"/>
-      <change idref="t94" attribute="title" type="string" to="Migrate and decommission Jenkins, reuse."/>
-    </change>
-    <change idref="t91" to="t30" to-position="1" resolved="yes">
-      <change idref="t91" attribute="effort" type="real" from="28800" to="144000"/>
-      <change idref="t91" attribute="internalAssignments" type="string" from="" to="1"/>
-      <change idref="t91" attribute="noEarlierThanConstraintDate" type="date" to="2016-07-29T20:45:00.000Z"/>
-      <change idref="t91" attribute="title" type="string" to="Work with Salesforce/Heroku to build an HMDC Heroku Enterprise contract"/>
-    </change>
-    <change idref="t33" attribute="notesAllowingNil" type="textdata" from="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBIZWx2ZXRpY2FOZXVlO30Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7XHJlZDg1XGdyZWVuODVcYmx1ZTg1O30KXHBhcmRcdHg1NjBcdHgxMTIwXHR4MTY4MFx0eDIyNDBcdHgyODAwXHR4MzM2MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0b3IwCgpcZjBcZnMyNCBcY2YyIFx1cDAgXG5vc3VwZXJzdWIgXHVsbm9uZSBcb2JsaXF1ZW5lc3MwIFxleHBhbnNpb24wIE1heWJlIHB1dCBzbGF2ZSBob3N0cyBpbiBkaWZmZXJlbnQgem9uZXM/IEV4cG9zZSB2aWEgQW1hem9uIExCLn0=" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBIZWx2ZXRpY2FOZXVlO30Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7XHJlZDg1XGdyZWVuODVcYmx1ZTg1O30KXHBhcmRcdHg1NjBcdHgxMTIwXHR4MTY4MFx0eDIyNDBcdHgyODAwXHR4MzM2MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0b3IwCgpcZjBcZnMyNCBcY2YyIFx1cDAgXG5vc3VwZXJzdWIgXHVsbm9uZSBcb2JsaXF1ZW5lc3MwIFxleHBhbnNpb24wIE1heWJlIHB1dCBzbGF2ZSBob3N0cyBpbiBkaWZmZXJlbnQgem9uZXM/IEV4cG9zZSB2aWEgQW1hem9uIExCLiBXZSBuZWVkIHRvIG1ha2Ugc3VyZSB0aGlzIHdvcmtzIGZvciBDZW50T1MgNyBhcyB3ZWxsIGlmIHdlIGdvIHRvIEF6dXJlLn0=" resolved="yes"/>
-    <change idref="t33" attribute="title" type="string" from="Upgrade/migrate LDAP to CentOS 6/Amazon" to="Upgrade/migrate LDAP to CentOS 6/7/Amazon" resolved="yes"/>
-    <change idref="t33" attribute="noEarlierThanConstraintDate" type="date" from="2016-04-22T20:45:00.000Z" to="2016-08-01T12:00:00.000Z" resolved="yes"/>
-    <change idref="t40" attribute="noEarlierThanConstraintDate" type="date" to="2016-08-01T12:00:00.000Z" resolved="yes"/>
-    <change idref="t41" attribute="noEarlierThanConstraintDate" type="date" to="2016-08-01T12:00:00.000Z" resolved="yes"/>
-    <change idref="t53" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
-    <change idref="t53" attribute="noEarlierThanConstraintDate" type="date" to="2016-07-29T20:30:00.000Z" resolved="yes"/>
-    <change idref="t55" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
-    <change idref="t55" attribute="noEarlierThanConstraintDate" type="date" to="2016-07-29T20:45:00.000Z" resolved="yes"/>
-    <change idref="t56" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
-    <change idref="t56" attribute="noEarlierThanConstraintDate" type="date" to="2016-07-29T20:30:00.000Z" resolved="yes"/>
-    <change idref="t57" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
-    <change idref="t57" attribute="noEarlierThanConstraintDate" type="date" to="2016-07-29T20:30:00.000Z" resolved="yes"/>
-    <change idref="t58" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
-    <change idref="t58" attribute="noEarlierThanConstraintDate" type="date" to="2016-07-29T20:30:00.000Z" resolved="yes"/>
-    <change idref="t59" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
-    <change idref="t59" attribute="noEarlierThanConstraintDate" type="date" to="2016-07-29T20:30:00.000Z" resolved="yes"/>
-    <change idref="t62" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
-    <change idref="t62" attribute="noEarlierThanConstraintDate" type="date" to="2016-07-29T20:45:00.000Z" resolved="yes"/>
-    <change idref="t63" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
-    <change idref="t63" attribute="noEarlierThanConstraintDate" type="date" to="2016-08-01T12:00:00.000Z" resolved="yes"/>
-    <change idref="t66" attribute="title" type="string" from="Rectify Puppet manifests with AWS/Cloud" to="Rectify Puppet manifests with AWS/Cloud and CentOS 7" resolved="yes"/>
-    <change idref="t68" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
-    <change idref="t68" attribute="noEarlierThanConstraintDate" type="date" to="2016-09-16T20:45:00.000Z" resolved="yes"/>
-    <change idref="t69" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
-    <change idref="t69" attribute="noEarlierThanConstraintDate" type="date" to="2016-09-16T20:45:00.000Z" resolved="yes"/>
-    <change idref="t71" attribute="effort" type="real" from="3600" to="5400" resolved="yes"/>
-    <change idref="t71" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
-    <change idref="t71" attribute="noEarlierThanConstraintDate" type="date" to="2016-09-16T20:45:00.000Z" resolved="yes"/>
-    <change idref="t72" attribute="title" type="string" from="Test all pertinent modules on AWS, make changes accordingly." to="Test all pertinent modules on AWS, CentOS 7, make changes accordingly." resolved="yes"/>
-    <change idref="t72" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
-    <change idref="t72" attribute="noEarlierThanConstraintDate" type="date" to="2016-09-16T20:30:00.000Z" resolved="yes"/>
-    <change idref="t73" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
-    <change idref="t73" attribute="noEarlierThanConstraintDate" type="date" to="2016-09-16T20:30:00.000Z" resolved="yes"/>
-    <change idref="t74" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
-    <change idref="t74" attribute="noEarlierThanConstraintDate" type="date" to="2016-09-16T20:30:00.000Z" resolved="yes"/>
-    <change idref="t76" attribute="title" type="string" from="AWS/Cloud migration preparations complete" to="AWS/AZURE/Cloud migration preparations complete" resolved="yes"/>
-    <change idref="t78" attribute="title" type="string" from="Prepare RCE/AWS demo. environment" to="Prepare RCE/AWS/AZURE demo. environment" resolved="yes"/>
-    <change idref="t95" to="t78" to-position="0" resolved="yes">
-      <change idref="t95" attribute="effort" type="real" from="28800" to="144000"/>
-      <change idref="t95" attribute="internalAssignments" type="string" from="" to="1"/>
-      <change idref="t95" attribute="noEarlierThanConstraintDate" type="date" to="2016-10-04T20:45:00.000Z"/>
-      <change idref="t95" attribute="title" type="string" to="Experiment with using Offline ClassAds to scale"/>
-    </change>
-    <change idref="t80" attribute="noEarlierThanConstraintDate" type="date" from="2016-04-24T04:00:00.000Z" to="2016-10-04T20:30:00.000Z" resolved="yes"/>
-    <change idref="t80" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
-    <change idref="t81" attribute="noEarlierThanConstraintDate" type="date" from="2016-04-25T12:00:00.000Z" to="2016-10-04T20:30:00.000Z" resolved="yes"/>
-    <change idref="t81" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
-    <change idref="t82" attribute="noEarlierThanConstraintDate" type="date" from="2016-04-25T12:00:00.000Z" to="2016-10-04T20:30:00.000Z" resolved="yes"/>
-    <change idref="t82" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
-    <change idref="t83" attribute="noEarlierThanConstraintDate" type="date" from="2016-04-25T12:00:00.000Z" to="2016-10-04T20:30:00.000Z" resolved="yes"/>
-    <change idref="t83" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
-    <change idref="t86" attribute="title" type="string" from="Reconfigure AWS networking to expose a public interface for NX4 portal" to="Reconfigure AWS/AZURE networking to expose a public interface for NX4 portal" resolved="yes"/>
-    <change idref="t86" attribute="noEarlierThanConstraintDate" type="date" from="2016-04-22T20:30:00.000Z" to="2016-08-01T12:00:00.000Z" resolved="yes"/>
-    <change idref="t87" attribute="internalEffortDone" type="real" from="0" to="28800" resolved="yes"/>
-    <change idref="t88" attribute="noEarlierThanConstraintDate" type="date" from="2016-04-28T12:00:00.000Z" to="2016-08-01T12:00:00.000Z" resolved="yes"/>
-    <change idref="t88" attribute="internalAssignments" type="string" from="" to="3" resolved="yes"/>
-    <change idref="t89" attribute="noEarlierThanConstraintDate" type="date" from="2016-04-28T12:00:00.000Z" to="2016-08-01T12:00:00.000Z" resolved="yes"/>
-    <change idref="t89" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
-    <change idref="t106" to="t96" to-position="0" resolved="yes">
-      <change idref="t106" attribute="isGroup" type="real" from="0" to="1"/>
-      <change idref="t106" attribute="noEarlierThanConstraintDate" type="date" to="2016-05-02T12:00:00.000Z"/>
-      <change idref="t106" attribute="taskType" type="real" from="0" to="2"/>
-      <change idref="t106" attribute="title" type="string" to="Performance testing"/>
-    </change>
-    <change idref="t98" to="t96" to-position="1" resolved="yes">
-      <change idref="t98" attribute="isGroup" type="real" from="0" to="1"/>
-      <change idref="t98" attribute="noEarlierThanConstraintDate" type="date" to="2016-05-02T12:00:00.000Z"/>
-      <change idref="t98" attribute="taskType" type="real" from="0" to="2"/>
-      <change idref="t98" attribute="title" type="string" to="Investigate using New Relic, Boundary, or Opsview."/>
-    </change>
-    <change idref="t104" to="t96" to-position="2" resolved="yes">
-      <change idref="t104" attribute="effort" type="real" from="28800" to="144000"/>
-      <change idref="t104" attribute="internalAssignments" type="string" from="" to="4"/>
-      <change idref="t104" attribute="noEarlierThanConstraintDate" type="date" to="2016-07-29T20:15:00.000Z"/>
-      <change idref="t104" attribute="title" type="string" to="Document monitoring"/>
-    </change>
-    <change idref="t105" to="t96" to-position="3" resolved="yes">
-      <change idref="t105" attribute="effort" type="real" from="28800" to="288000"/>
-      <change idref="t105" attribute="internalAssignments" type="string" from="" to="1"/>
-      <change idref="t105" attribute="noEarlierThanConstraintDate" type="date" to="2016-08-01T12:00:00.000Z"/>
-      <change idref="t105" attribute="title" type="string" to="Integrate monitoring with Puppet if necessary"/>
-    </change>
-    <change idref="t114" to="t96" to-position="4" resolved="yes">
-      <change idref="t114" attribute="internalAssignments" type="string" from="" to="1"/>
-      <change idref="t114" attribute="noEarlierThanConstraintDate" type="date" to="2016-08-01T12:00:00.000Z"/>
-      <change idref="t114" attribute="title" type="string" to="Determine proper default for amount of compute machines available, test autoscaling under average load."/>
-    </change>
-    <change idref="t115" to="t96" to-position="5" resolved="yes">
-      <change idref="t115" attribute="internalAssignments" type="string" from="" to="1"/>
-      <change idref="t115" attribute="noEarlierThanConstraintDate" type="date" to="2016-08-01T12:00:00.000Z"/>
-      <change idref="t115" attribute="title" type="string" to="Reconfigure RCE Cluster Tools (rce_submit.py) to, instead of polling, send email notification when job is active."/>
-    </change>
-    <change idref="t100" to="t98" to-position="0" resolved="yes">
-      <change idref="t100" attribute="effort" type="real" from="28800" to="288000"/>
-      <change idref="t100" attribute="internalAssignments" type="string" from="" to="4"/>
-      <change idref="t100" attribute="noEarlierThanConstraintDate" type="date" to="2016-07-29T20:45:00.000Z"/>
-      <change idref="t100" attribute="title" type="string" to="Demo solutions in the cloud environment."/>
-    </change>
-    <change idref="t101" to="t98" to-position="1" resolved="yes">
-      <change idref="t101" attribute="effort" type="real" from="28800" to="288000"/>
-      <change idref="t101" attribute="internalAssignments" type="string" from="" to="4"/>
-      <change idref="t101" attribute="noEarlierThanConstraintDate" type="date" to="2016-08-01T12:00:00.000Z"/>
-      <change idref="t101" attribute="title" type="string" to="Set-up appropriate alerts."/>
-    </change>
-    <change idref="t102" to="t98" to-position="2" resolved="yes">
-      <change idref="t102" attribute="effort" type="real" from="28800" to="576000"/>
-      <change idref="t102" attribute="internalAssignments" type="string" from="" to="4"/>
-      <change idref="t102" attribute="noEarlierThanConstraintDate" type="date" to="2016-08-01T12:00:00.000Z"/>
-      <change idref="t102" attribute="title" type="string" to="Migrate pertinent monitors from OpsView to cloud solution, could be OpsView."/>
-    </change>
-    <change idref="t108" to="t106" to-position="0" resolved="yes">
-      <change idref="t108" attribute="effort" type="real" from="28800" to="144000"/>
-      <change idref="t108" attribute="internalAssignments" type="string" from="" to="1"/>
-      <change idref="t108" attribute="noEarlierThanConstraintDate" type="date" to="2016-07-29T20:30:00.000Z"/>
-      <change idref="t108" attribute="title" type="string" to="Performance test NoMachine and XPRA latency, compared to local."/>
-    </change>
-    <change idref="t113" to="t110" to-position="0" resolved="yes">
-      <change idref="t113" attribute="effort" type="real" from="28800" to="144000"/>
-      <change idref="t113" attribute="internalAssignments" type="string" from="" to="3"/>
-      <change idref="t113" attribute="noEarlierThanConstraintDate" type="date" to="2016-07-29T20:30:00.000Z"/>
-      <change idref="t113" attribute="title" type="string" to="Slowly de-commission execute nodes, sell or move to recycling."/>
-    </change>
-    <change idref="t116" to="t110" to-position="1" resolved="yes">
-      <change idref="t116" attribute="effort" type="real" from="28800" to="144000"/>
-      <change idref="t116" attribute="internalAssignments" type="string" from="" to="3"/>
-      <change idref="t116" attribute="noEarlierThanConstraintDate" type="date" to="2016-07-29T20:45:00.000Z"/>
-      <change idref="t116" attribute="title" type="string" to="De-commission RCE Login nodes, sell or cycle, migrate licenses to Cloud."/>
-    </change>
-    <change idref="t117" to="t110" to-position="2" resolved="yes">
-      <change idref="t117" attribute="effort" type="real" from="28800" to="144000"/>
-      <change idref="t117" attribute="internalAssignments" type="string" from="" to="3"/>
-      <change idref="t117" attribute="noEarlierThanConstraintDate" type="date" to="2016-07-29T20:45:00.000Z"/>
-      <change idref="t117" attribute="title" type="string" to="With all web apps migrated to Heroku, turn off and recycle www-* hosts."/>
-    </change>
-    <change idref="t118" to="t110" to-position="3" resolved="yes">
-      <change idref="t118" attribute="effort" type="real" from="28800" to="144000"/>
-      <change idref="t118" attribute="internalAssignments" type="string" from="" to="3"/>
-      <change idref="t118" attribute="noEarlierThanConstraintDate" type="date" to="2016-07-29T20:45:00.000Z"/>
-      <change idref="t118" attribute="title" type="string" to="Migrate pertinent fs-4 tasks to another host, turn off and recycle fs-4."/>
-    </change>
-    <change idref="t119" to="t110" to-position="4" resolved="yes">
-      <change idref="t119" attribute="internalAssignments" type="string" from="" to="3"/>
-      <change idref="t119" attribute="noEarlierThanConstraintDate" type="date" to="2016-07-29T20:45:00.000Z"/>
-      <change idref="t119" attribute="title" type="string" to="With RT migrated to cloud provider, turn off RT and recycle."/>
+    <change idref="t40" attribute="title" type="string" from="Migrate DNS to Route 53" to="Migrate DNS to Route 53/Azure"/>
+  </task-change-set>
+  <task-change-set user="Evan Sarmiento" date="2016-05-04T23:32:38.597Z" timestamp="2016-05-04T23:32:38.597Z">
+    <change idref="t133" to="t1" to-position="1">
+      <change idref="t133" attribute="noEarlierThanConstraintDate" type="date" to="2016-05-04T12:00:00.000Z"/>
+      <change idref="t133" attribute="title" type="string" to="Migrate CGA hardware out of data center"/>
     </change>
   </task-change-set>
-  <task-change-set user="Evan Sarmiento" date="2016-05-02T17:14:36.482Z" timestamp="2016-05-02T17:14:36.482Z">
-    <change idref="t80" attribute="effort" type="real" from="144000" to="288000" resolved="yes"/>
-    <change idref="t81" attribute="effort" type="real" from="144000" to="288000" resolved="yes"/>
+  <task-change-set user="Evan Sarmiento" date="2016-05-11T18:39:18.245Z" timestamp="2016-05-11T18:39:18.245Z">
+    <change idref="t90" attribute="internalEffortDone" type="real" from="0" to="2700"/>
+    <change idref="t92" attribute="internalEffortDone" type="real" from="0" to="5400"/>
+  </task-change-set>
+  <task-change-set user="Evan Sarmiento" date="2016-05-24T12:43:32.945Z" timestamp="2016-05-24T12:43:32.945Z">
+    <change idref="t59" attribute="internalEffortDone" type="real" from="0" to="39600" resolved="yes"/>
+    <change idref="t68" attribute="internalEffortDone" type="real" from="0" to="15300" resolved="yes"/>
+    <change idref="t131" attribute="internalEffortDone" type="real" from="0" to="19800" resolved="yes"/>
+    <change idref="t136" attribute="noEarlierThanConstraintDate" type="date" from="2016-05-10T12:00:00.000Z" to="2016-05-10T12:45:00.000Z" resolved="yes"/>
+    <change idref="t136" attribute="internalEffortDone" type="real" from="0" to="14400" resolved="yes"/>
   </task-change-set>
 </changelog>

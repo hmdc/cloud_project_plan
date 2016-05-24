@@ -85,6 +85,9 @@
     <title>Offload unwanted or time-consuming services/responsibilities.</title>
     <type>group</type>
     <start-constraint-date>2016-04-25T12:15:00.000Z</start-constraint-date>
+    <child-task idref="t136"/>
+    <child-task idref="t130"/>
+    <child-task idref="t133"/>
     <child-task idref="t64"/>
     <child-task idref="t16"/>
     <child-task idref="t3"/>
@@ -145,13 +148,15 @@
   <task id="t23">
     <title>Research which provider or hosted solution is best.</title>
     <effort>144000</effort>
+    <effort-done>144000</effort-done>
     <start-constraint-date>2016-07-29T20:45:00.000Z</start-constraint-date>
-    <assignment idref="r4"/>
+    <assignment idref="r1"/>
     <start-no-earlier-than>2016-07-29T20:45:00.000Z</start-no-earlier-than>
   </task>
   <task id="t25">
     <title>Work with provider to upgrade and maintain RT installation.</title>
     <effort>288000</effort>
+    <effort-done>114300</effort-done>
     <start-constraint-date>2016-08-05T20:15:00.000Z</start-constraint-date>
     <note>
       <text>
@@ -180,6 +185,7 @@
     <child-task idref="t91"/>
     <child-task idref="t89"/>
     <child-task idref="t59"/>
+    <child-task idref="t131"/>
     <child-task idref="t54"/>
     <child-task idref="t53"/>
     <child-task idref="t56"/>
@@ -207,8 +213,10 @@
   </task>
   <task id="t33">
     <title>Upgrade/migrate LDAP to CentOS 6/7/Amazon</title>
-    <effort>576000</effort>
+    <type>group</type>
     <start-constraint-date>2016-08-01T12:00:00.000Z</start-constraint-date>
+    <child-task idref="t134"/>
+    <child-task idref="t135"/>
     <note>
       <text>
         <p>
@@ -218,11 +226,10 @@
         </p>
       </text>
     </note>
-    <assignment idref="r4"/>
     <start-no-earlier-than>2016-08-01T12:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t40">
-    <title>Migrate DNS to Route 53</title>
+    <title>Migrate DNS to Route 53/Azure</title>
     <effort>144000</effort>
     <start-constraint-date>2016-08-01T12:00:00.000Z</start-constraint-date>
     <start-no-earlier-than>2016-08-01T12:00:00.000Z</start-no-earlier-than>
@@ -303,6 +310,7 @@
   <task id="t59">
     <title>Give Raman access to a basic Heroku account and ask him to deploy Dataverse Network to its and its components.</title>
     <effort>57600</effort>
+    <effort-done>39600</effort-done>
     <start-constraint-date>2016-07-29T20:30:00.000Z</start-constraint-date>
     <note>
       <text>
@@ -372,6 +380,7 @@
   <task id="t68">
     <title>Mine hmdc-admin for passwords and remove or place passwords elsewhere.</title>
     <effort>144000</effort>
+    <effort-done>15300</effort-done>
     <start-constraint-date>2016-09-16T20:45:00.000Z</start-constraint-date>
     <note>
       <text>
@@ -499,6 +508,7 @@
   <task id="t90">
     <title>Get BackBlaze certified with OGC/HUIT</title>
     <effort>28800</effort>
+    <effort-done>2700</effort-done>
     <start-constraint-date>2016-07-29T20:45:00.000Z</start-constraint-date>
     <assignment idref="r1"/>
     <start-no-earlier-than>2016-07-29T20:45:00.000Z</start-no-earlier-than>
@@ -513,6 +523,7 @@
   <task id="t92">
     <title>Buy and install host which performs backups</title>
     <effort>28800</effort>
+    <effort-done>5400</effort-done>
     <start-constraint-date>2016-08-01T12:00:00.000Z</start-constraint-date>
     <assignment idref="r3"/>
     <start-no-earlier-than>2016-08-01T12:00:00.000Z</start-no-earlier-than>
@@ -659,8 +670,9 @@
   <task id="t118">
     <title>Migrate pertinent fs-4 tasks to another host, turn off and recycle fs-4.</title>
     <effort>144000</effort>
+    <effort-done>144000</effort-done>
     <start-constraint-date>2016-07-29T20:45:00.000Z</start-constraint-date>
-    <assignment idref="r3"/>
+    <assignment idref="r1"/>
     <start-no-earlier-than>2016-07-29T20:45:00.000Z</start-no-earlier-than>
   </task>
   <task id="t119">
@@ -669,6 +681,45 @@
     <start-constraint-date>2016-07-29T20:45:00.000Z</start-constraint-date>
     <assignment idref="r3"/>
     <start-no-earlier-than>2016-07-29T20:45:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t130">
+    <title>Automate patching procedure</title>
+    <effort>28800</effort>
+    <effort-done>28800</effort-done>
+    <start-constraint-date>2016-05-04T12:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2016-05-04T12:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t131">
+    <title>Certify Heroku with OGC</title>
+    <effort>28800</effort>
+    <effort-done>19800</effort-done>
+    <start-constraint-date>2016-05-04T12:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2016-05-04T12:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t133">
+    <title>Migrate CGA hardware out of data center</title>
+    <effort>28800</effort>
+    <start-constraint-date>2016-05-04T12:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2016-05-04T12:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t134">
+    <title>Build and test LDAP on CentOS 6/Amazon</title>
+    <effort>28800</effort>
+    <start-constraint-date>2016-05-10T12:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2016-05-10T12:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t135">
+    <title>Get Amazon certified for Level 4</title>
+    <effort>28800</effort>
+    <start-constraint-date>2016-05-10T12:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2016-05-10T12:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t136">
+    <title>Decommission old/unused hardware.</title>
+    <effort>28800</effort>
+    <effort-done>14400</effort-done>
+    <start-constraint-date>2016-05-10T12:45:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2016-05-10T12:45:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
