@@ -27,7 +27,7 @@
     <change idref="t64" to="t1" to-position="0">
       <change idref="t64" attribute="effort" type="real" from="28800" to="7200"/>
       <change idref="t64" attribute="internalEffortDone" type="real" from="0" to="7200"/>
-      <change idref="t64" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBIZWx2ZXRpY2FOZXVlO30Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7XHJlZDg1XGdyZWVuODVcYmx1ZTg1O30KXHBhcmRcdHg1NjBcdHgxMTIwXHR4MTY4MFx0eDIyNDBcdHgyODAwXHR4MzM2MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0b3IwCgpcZjBcZnMyNCBcY2YyIERWTiB3aWxsIHByb2JhYmx5IHJlcXVpcmUgYSBkYXRhIGJhY2t1cC59"/>
+      <change idref="t64" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDcwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBIZWx2ZXRpY2FOZXVlO30Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7XHJlZDg1XGdyZWVuODVcYmx1ZTg1O30KXHBhcmRcdHg1NjBcdHgxMTIwXHR4MTY4MFx0eDIyNDBcdHgyODAwXHR4MzM2MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0b3IwCgpcZjBcZnMyNCBcY2YyIERWTiB3aWxsIHByb2JhYmx5IHJlcXVpcmUgYSBkYXRhIGJhY2t1cC59"/>
       <change idref="t64" attribute="title" type="string" to="Migrate/remove Redmine"/>
     </change>
     <change idref="t30" attribute="isGroup" type="real" from="0" to="1"/>
@@ -44,18 +44,18 @@
     <change idref="t30" attribute="internalEffortDone" type="real" from="0"/>
     <change idref="t59" to="t30" to-position="0">
       <change idref="t59" attribute="effort" type="real" from="28800" to="57600"/>
-      <change idref="t59" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBIZWx2ZXRpY2FOZXVlO30Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7XHJlZDg1XGdyZWVuODVcYmx1ZTg1O30KXHBhcmRcdHg1NjBcdHgxMTIwXHR4MTY4MFx0eDIyNDBcdHgyODAwXHR4MzM2MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0b3IwCgpcZjBcZnMyNCBcY2YyIFRoaXMgc2hvdWxkIGFjdHVhbGx5IGdpdmUgdGhlbSB3aGF0IHRoZXkgd2FudCBcJzk3IGxhdGVzdCBQeXRob24sIGF1dG9tYXRpY2FsbHkgcHJvdmlzaW9uaW5nIE5HSU5YLCBldGMufQ=="/>
+      <change idref="t59" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDcwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBIZWx2ZXRpY2FOZXVlO30Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7XHJlZDg1XGdyZWVuODVcYmx1ZTg1O30KXHBhcmRcdHg1NjBcdHgxMTIwXHR4MTY4MFx0eDIyNDBcdHgyODAwXHR4MzM2MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0b3IwCgpcZjBcZnMyNCBcY2YyIFRoaXMgc2hvdWxkIGFjdHVhbGx5IGdpdmUgdGhlbSB3aGF0IHRoZXkgd2FudCBcJzk3IGxhdGVzdCBQeXRob24sIGF1dG9tYXRpY2FsbHkgcHJvdmlzaW9uaW5nIE5HSU5YLCBldGMufQ=="/>
       <change idref="t59" attribute="title" type="string" to="Give Raman access to a basic Heroku account and ask him to deploy Dataverse Network to its and its components."/>
     </change>
     <change idref="t54" to="t30" to-position="1">
       <change idref="t54" attribute="isGroup" type="real" from="0" to="1"/>
-      <change idref="t54" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBIZWx2ZXRpY2FOZXVlO30Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7XHJlZDg1XGdyZWVuODVcYmx1ZTg1O30KXHBhcmRcdHg1NjBcdHgxMTIwXHR4MTY4MFx0eDIyNDBcdHgyODAwXHR4MzM2MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0b3IwCgpcZjBcZnMyNCBcY2YyIEFzayBMYXRhbnlhIHdoaWNoIFBIUCBhcHBsaWNhdGlvbiB3ZSBjYW4gbWlncmF0ZSBmb3IgdGVzdGluZyBcJzk3IG9uZSB0aGF0IGNvbnRhaW5zIG5vIGltcG9ydGFudC9zZW5zaXRpdmUgZGF0YS4gVGFrZSB0aGlzIFBIUCBhcHBsaWNhdGlvbiBmcm9tIC9uZnMvd3d3IGFuZCBtaWdyYXRlIGl0IHRvIEhlcm9rdS59"/>
+      <change idref="t54" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDcwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBIZWx2ZXRpY2FOZXVlO30Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7XHJlZDg1XGdyZWVuODVcYmx1ZTg1O30KXHBhcmRcdHg1NjBcdHgxMTIwXHR4MTY4MFx0eDIyNDBcdHgyODAwXHR4MzM2MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0b3IwCgpcZjBcZnMyNCBcY2YyIEFzayBMYXRhbnlhIHdoaWNoIFBIUCBhcHBsaWNhdGlvbiB3ZSBjYW4gbWlncmF0ZSBmb3IgdGVzdGluZyBcJzk3IG9uZSB0aGF0IGNvbnRhaW5zIG5vIGltcG9ydGFudC9zZW5zaXRpdmUgZGF0YS4gVGFrZSB0aGlzIFBIUCBhcHBsaWNhdGlvbiBmcm9tIC9uZnMvd3d3IGFuZCBtaWdyYXRlIGl0IHRvIEhlcm9rdS59"/>
       <change idref="t54" attribute="taskType" type="real" from="0" to="2"/>
       <change idref="t54" attribute="title" type="string" to="Create a Heroku account and deploy Latanya’s PHP application to it."/>
     </change>
     <change idref="t53" to="t30" to-position="2">
       <change idref="t53" attribute="effort" type="real" from="28800" to="86400"/>
-      <change idref="t53" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBIZWx2ZXRpY2FOZXVlO30Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7XHJlZDg1XGdyZWVuODVcYmx1ZTg1O30KXHBhcmRcdHg1NjBcdHgxMTIwXHR4MTY4MFx0eDIyNDBcdHgyODAwXHR4MzM2MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0b3IwCgpcZjBcZnMyNCBcY2YyIENvbGxlY3QgdGhlIGFtb3VudCBvZiB3ZWJzaXRlcyB3ZSBob3N0LiBUaGUgYW1vdW50IG9mIFBIUCBhbmQvb3IgUHl0aG9uIHdlYnNpdGVzIHdlIGhvc3QgZG9lcyBub3QgYWNjb3VudCBmb3IgdmVyeSBtdWNoLn0="/>
+      <change idref="t53" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDcwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBIZWx2ZXRpY2FOZXVlO30Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7XHJlZDg1XGdyZWVuODVcYmx1ZTg1O30KXHBhcmRcdHg1NjBcdHgxMTIwXHR4MTY4MFx0eDIyNDBcdHgyODAwXHR4MzM2MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0b3IwCgpcZjBcZnMyNCBcY2YyIENvbGxlY3QgdGhlIGFtb3VudCBvZiB3ZWJzaXRlcyB3ZSBob3N0LiBUaGUgYW1vdW50IG9mIFBIUCBhbmQvb3IgUHl0aG9uIHdlYnNpdGVzIHdlIGhvc3QgZG9lcyBub3QgYWNjb3VudCBmb3IgdmVyeSBtdWNoLn0="/>
       <change idref="t53" attribute="title" type="string" to="Work with Heroku to determine enterprise pricing for the amount of web sites we host."/>
     </change>
     <change idref="t56" to="t30" to-position="3">
@@ -68,14 +68,14 @@
     </change>
     <change idref="t58" to="t30" to-position="5">
       <change idref="t58" attribute="effort" type="real" from="28800" to="86400"/>
-      <change idref="t58" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBIZWx2ZXRpY2FOZXVlO30Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7XHJlZDg1XGdyZWVuODVcYmx1ZTg1O30KXHBhcmRcdHg1NjBcdHgxMTIwXHR4MTY4MFx0eDIyNDBcdHgyODAwXHR4MzM2MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0b3IwCgpcZjBcZnMyNCBcY2YyIFdlIHByZWZlciBhIHNlbGYtc2VydmljZSBtb2RlbC4gSWYgcG9zc2libGUsIG1ha2UgdXNlcnMgcGVyZm9ybSB0aGUgbWFqb3JpdHkgb2YgdGhlIHdvcmssIGFwYXJ0IGZyb20gaW5pdGlhbCBhY2NvdW50IHNldHVwLn0="/>
+      <change idref="t58" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDcwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBIZWx2ZXRpY2FOZXVlO30Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7XHJlZDg1XGdyZWVuODVcYmx1ZTg1O30KXHBhcmRcdHg1NjBcdHgxMTIwXHR4MTY4MFx0eDIyNDBcdHgyODAwXHR4MzM2MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0b3IwCgpcZjBcZnMyNCBcY2YyIFdlIHByZWZlciBhIHNlbGYtc2VydmljZSBtb2RlbC4gSWYgcG9zc2libGUsIG1ha2UgdXNlcnMgcGVyZm9ybSB0aGUgbWFqb3JpdHkgb2YgdGhlIHdvcmssIGFwYXJ0IGZyb20gaW5pdGlhbCBhY2NvdW50IHNldHVwLn0="/>
       <change idref="t58" attribute="title" type="string" to="Work with Gary and Cris to decide how much support we provide for users in the Heroku environment: Do we help them setup GitHub repositories? Do we help them with basic PHP programming fundamentals, permissions? "/>
     </change>
     <change idref="t62" to="t30" to-position="6">
       <change idref="t62" attribute="title" type="string" to="Migrate all sites to Heroku. Provide a deadline."/>
     </change>
     <change idref="t63" to="t30" to-position="7">
-      <change idref="t63" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBIZWx2ZXRpY2FOZXVlO30Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7XHJlZDg1XGdyZWVuODVcYmx1ZTg1O30KXHBhcmRcdHg1NjBcdHgxMTIwXHR4MTY4MFx0eDIyNDBcdHgyODAwXHR4MzM2MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0b3IwCgpcZjBcZnMyNCBcY2YyIFdlIG1heSBuZWVkIHRvIHByb3Zpc2lvbiBhIEplbmtpbnMgaW5zdGFuY2UgZm9yIHRoZW0sIGFsdGhvdWdoIHRoaXMgbWF5IGJlIHByb3ZpZGVkIGJ5IEhlcm9rdSBhcyB3ZWxsLn0="/>
+      <change idref="t63" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDcwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBIZWx2ZXRpY2FOZXVlO30Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7XHJlZDg1XGdyZWVuODVcYmx1ZTg1O30KXHBhcmRcdHg1NjBcdHgxMTIwXHR4MTY4MFx0eDIyNDBcdHgyODAwXHR4MzM2MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0b3IwCgpcZjBcZnMyNCBcY2YyIFdlIG1heSBuZWVkIHRvIHByb3Zpc2lvbiBhIEplbmtpbnMgaW5zdGFuY2UgZm9yIHRoZW0sIGFsdGhvdWdoIHRoaXMgbWF5IGJlIHByb3ZpZGVkIGJ5IEhlcm9rdSBhcyB3ZWxsLn0="/>
       <change idref="t63" attribute="title" type="string" to="Ask DVN to migrate their entire toolchain to Heroku. Provide a deadline."/>
     </change>
     <change idref="t32" attribute="internalPrerequisitesString" type="string" to="1FS"/>
@@ -102,7 +102,7 @@
     </change>
     <change idref="t68" to="t67" to-position="0">
       <change idref="t68" attribute="effort" type="real" from="28800" to="144000"/>
-      <change idref="t68" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBIZWx2ZXRpY2FOZXVlO30Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7XHJlZDg1XGdyZWVuODVcYmx1ZTg1O30KXHBhcmRcdHg1NjBcdHgxMTIwXHR4MTY4MFx0eDIyNDBcdHgyODAwXHR4MzM2MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0b3IwCgpcZjBcZnMyNCBcY2YyIFRoZXJlIG1heSBiZSBhIGZhc3RlciB3YXkgb2YgZG9pbmcgdGhpcy4gV2UgbWF5IGp1c3Qgd2FudCB0byB0cnVuY2F0ZSBvdXIgR2l0IGhpc3RvcnkuIFNpbWlsYXJseSwgYmVjYXVzZSB3ZSBhcmUgbW92aW5nIHRvIHRoZSBDbG91ZCwgd2UgbWF5IG5vdCBuZWVkIHBhc3N3b3JkcyBsaWtlIHRoZSBTZXJ2ZXIgUmVwb3J0cyBwYXNzd29yZCBzdGF0aWNhbGx5IGRlZmluZWQgaW5zaWRlIG91ciByZXBvc2l0b3J5Ln0="/>
+      <change idref="t68" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDcwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBIZWx2ZXRpY2FOZXVlO30Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7XHJlZDg1XGdyZWVuODVcYmx1ZTg1O30KXHBhcmRcdHg1NjBcdHgxMTIwXHR4MTY4MFx0eDIyNDBcdHgyODAwXHR4MzM2MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0b3IwCgpcZjBcZnMyNCBcY2YyIFRoZXJlIG1heSBiZSBhIGZhc3RlciB3YXkgb2YgZG9pbmcgdGhpcy4gV2UgbWF5IGp1c3Qgd2FudCB0byB0cnVuY2F0ZSBvdXIgR2l0IGhpc3RvcnkuIFNpbWlsYXJseSwgYmVjYXVzZSB3ZSBhcmUgbW92aW5nIHRvIHRoZSBDbG91ZCwgd2UgbWF5IG5vdCBuZWVkIHBhc3N3b3JkcyBsaWtlIHRoZSBTZXJ2ZXIgUmVwb3J0cyBwYXNzd29yZCBzdGF0aWNhbGx5IGRlZmluZWQgaW5zaWRlIG91ciByZXBvc2l0b3J5Ln0="/>
       <change idref="t68" attribute="title" type="string" to="Mine hmdc-admin for passwords and remove or place passwords elsewhere."/>
     </change>
     <change idref="t69" to="t67" to-position="1">
@@ -178,11 +178,10 @@
     <change idref="t90" attribute="internalEffortDone" type="real" from="0" to="2700"/>
     <change idref="t92" attribute="internalEffortDone" type="real" from="0" to="5400"/>
   </task-change-set>
-  <task-change-set user="Evan Sarmiento" date="2016-05-24T12:43:32.945Z" timestamp="2016-05-24T12:43:32.945Z">
-    <change idref="t59" attribute="internalEffortDone" type="real" from="0" to="39600" resolved="yes"/>
-    <change idref="t68" attribute="internalEffortDone" type="real" from="0" to="15300" resolved="yes"/>
-    <change idref="t131" attribute="internalEffortDone" type="real" from="0" to="19800" resolved="yes"/>
-    <change idref="t136" attribute="noEarlierThanConstraintDate" type="date" from="2016-05-10T12:00:00.000Z" to="2016-05-10T12:45:00.000Z" resolved="yes"/>
-    <change idref="t136" attribute="internalEffortDone" type="real" from="0" to="14400" resolved="yes"/>
+  <task-change-set user="Evan Sarmiento" date="2016-06-14T18:02:53.357Z" timestamp="2016-06-14T18:02:53.357Z">
+    <change idref="t25" attribute="internalEffortDone" type="real" from="114300" to="260100" resolved="yes"/>
+    <change idref="t28" attribute="internalEffortDone" type="real" from="0" to="144000" resolved="yes"/>
+    <change idref="t90" attribute="internalEffortDone" type="real" from="2700" to="14400" resolved="yes"/>
+    <change idref="t92" attribute="internalEffortDone" type="real" from="5400" to="23400" resolved="yes"/>
   </task-change-set>
 </changelog>

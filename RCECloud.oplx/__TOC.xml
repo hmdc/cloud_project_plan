@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <omniplan xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opnx="http://www.omnigroup.com/namespace/OmniPlan/v2">
-  <window x="1531" y="5" w="1566" h="758">
+  <window x="4" y="5" w="1436" h="758">
     <editing-scenario>keAedYKJIgZ</editing-scenario>
     <view>task</view>
     <change-tracking/>
     <status-display>basic</status-display>
     <task-view>
       <split-view-divider-position>554</split-view-divider-position>
-      <outline x="0" y="0" w="554" h="660">
+      <outline x="0" y="28.5" w="554" h="675">
         <column name="Violations" width="20"/>
         <column name="Notes" width="20"/>
         <column name="Title" width="439"/>
         <column name="Effort" width="70"/>
-        <expanded-items idrefs="t30 t33 t110 t66 t16 t32 t54 t3 t67 t96 t1"/>
-        <expanded-item-notes idrefs="t30 t33 t59 t68 t58 t16 t64 t54 t63 t53"/>
-        <selected-items-at-filter-time idrefs="t105 t117 t96 t101 t64 t83 t113 t78 t133 t71 t106 t118 t102 t66 t90 t98 t110 t114 t134 t72 t91 t130 t67 t86 t119 t73 t92 t115 t68 t87 t135 t74 t131 t69 t80 t88 t108 t104 t94 t116 t100 t81 t89 t136 t76 t95 t82 t109"/>
+        <expanded-items idrefs="t30 t33 t110 t1 t16 t32 t54 t96 t67 t3 t66"/>
+        <expanded-item-notes idrefs="t30 t33 t59 t68 t16 t58 t64 t54 t63 t53"/>
+        <selected-items-at-filter-time idrefs="t105 t117 t96 t64 t113 t101 t83 t133 t78 t106 t118 t90 t98 t114 t66 t102 t110 t71 t134 t72 t91 t130 t67 t86 t73 t119 t92 t115 t68 t87 t135 t74 t131 t69 t80 t88 t108 t104 t116 t94 t100 t81 t89 t136 t76 t95 t82 t109"/>
       </outline>
-      <gantt-view x="4329" y="0" w="995" h="660">
+      <gantt-view x="6684.5" y="28.5" w="880" h="675">
         <view-mode>actual</view-mode>
         <dependency-lines/>
         <constraints/>
@@ -197,10 +197,10 @@ End:</group-table-style>
     <printinfo-dictionary>
       <key>OPPrintSettingPrintOption</key>
       <integer>0</integer>
-      <key>NSTopMargin</key>
-      <real>90</real>
-      <key>NSBottomMargin</key>
-      <real>90</real>
+      <key>NSScalingFactor</key>
+      <real>1</real>
+      <key>NSPrinterName</key>
+      <string>10.245.84.99</string>
       <key>NSRightMargin</key>
       <real>72</real>
       <key>NSPaperName</key>
@@ -209,10 +209,10 @@ End:</group-table-style>
       <real>72</real>
       <key>NSOrientation</key>
       <integer>0</integer>
-      <key>NSScalingFactor</key>
-      <real>1</real>
-      <key>NSPrinterName</key>
-      <string>10.245.84.99</string>
+      <key>NSTopMargin</key>
+      <real>90</real>
+      <key>NSBottomMargin</key>
+      <real>90</real>
     </printinfo-dictionary>
     <page-adornment>
       <master-page-headers>

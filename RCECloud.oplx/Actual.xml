@@ -156,7 +156,7 @@
   <task id="t25">
     <title>Work with provider to upgrade and maintain RT installation.</title>
     <effort>288000</effort>
-    <effort-done>114300</effort-done>
+    <effort-done>260100</effort-done>
     <start-constraint-date>2016-08-05T20:15:00.000Z</start-constraint-date>
     <note>
       <text>
@@ -174,6 +174,7 @@
   <task id="t28">
     <title>Make an inventory of all of our ‘RT’ scrips and discard those which are no longer necessary for migration.</title>
     <effort>144000</effort>
+    <effort-done>144000</effort-done>
     <start-constraint-date>2016-07-29T20:45:00.000Z</start-constraint-date>
     <assignment idref="r4"/>
     <start-no-earlier-than>2016-07-29T20:45:00.000Z</start-no-earlier-than>
@@ -508,7 +509,7 @@
   <task id="t90">
     <title>Get BackBlaze certified with OGC/HUIT</title>
     <effort>28800</effort>
-    <effort-done>2700</effort-done>
+    <effort-done>14400</effort-done>
     <start-constraint-date>2016-07-29T20:45:00.000Z</start-constraint-date>
     <assignment idref="r1"/>
     <start-no-earlier-than>2016-07-29T20:45:00.000Z</start-no-earlier-than>
@@ -523,7 +524,7 @@
   <task id="t92">
     <title>Buy and install host which performs backups</title>
     <effort>28800</effort>
-    <effort-done>5400</effort-done>
+    <effort-done>23400</effort-done>
     <start-constraint-date>2016-08-01T12:00:00.000Z</start-constraint-date>
     <assignment idref="r3"/>
     <start-no-earlier-than>2016-08-01T12:00:00.000Z</start-no-earlier-than>
