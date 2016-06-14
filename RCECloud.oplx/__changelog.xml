@@ -184,4 +184,9 @@
     <change idref="t90" attribute="internalEffortDone" type="real" from="2700" to="14400" resolved="yes"/>
     <change idref="t92" attribute="internalEffortDone" type="real" from="5400" to="23400" resolved="yes"/>
   </task-change-set>
+  <task-change-set user="Evan Sarmiento" date="2016-06-14T18:07:48.846Z" timestamp="2016-06-14T18:07:48.846Z">
+    <change idref="t25" attribute="internalAssignments" type="string" from="4" to="1" resolved="yes"/>
+    <change idref="t28" attribute="internalAssignments" type="string" from="4" to="1" resolved="yes"/>
+    <change idref="t28" attribute="internalEffortDone" type="real" from="144000" to="0" resolved="yes"/>
+  </task-change-set>
 </changelog>

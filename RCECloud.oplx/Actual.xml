@@ -168,15 +168,14 @@
       </text>
     </note>
     <prerequisite-task idref="t23"/>
-    <assignment idref="r4"/>
+    <assignment idref="r1"/>
     <start-no-earlier-than>2016-08-05T20:15:00.000Z</start-no-earlier-than>
   </task>
   <task id="t28">
     <title>Make an inventory of all of our ‘RT’ scrips and discard those which are no longer necessary for migration.</title>
     <effort>144000</effort>
-    <effort-done>144000</effort-done>
     <start-constraint-date>2016-07-29T20:45:00.000Z</start-constraint-date>
-    <assignment idref="r4"/>
+    <assignment idref="r1"/>
     <start-no-earlier-than>2016-07-29T20:45:00.000Z</start-no-earlier-than>
   </task>
   <task id="t30">
