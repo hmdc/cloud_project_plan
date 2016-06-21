@@ -178,15 +178,8 @@
     <change idref="t90" attribute="internalEffortDone" type="real" from="0" to="2700"/>
     <change idref="t92" attribute="internalEffortDone" type="real" from="0" to="5400"/>
   </task-change-set>
-  <task-change-set user="Evan Sarmiento" date="2016-06-14T18:02:53.357Z" timestamp="2016-06-14T18:02:53.357Z">
-    <change idref="t25" attribute="internalEffortDone" type="real" from="114300" to="260100" resolved="yes"/>
-    <change idref="t28" attribute="internalEffortDone" type="real" from="0" to="144000" resolved="yes"/>
-    <change idref="t90" attribute="internalEffortDone" type="real" from="2700" to="14400" resolved="yes"/>
-    <change idref="t92" attribute="internalEffortDone" type="real" from="5400" to="23400" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Evan Sarmiento" date="2016-06-14T18:07:48.846Z" timestamp="2016-06-14T18:07:48.846Z">
-    <change idref="t25" attribute="internalAssignments" type="string" from="4" to="1" resolved="yes"/>
-    <change idref="t28" attribute="internalAssignments" type="string" from="4" to="1" resolved="yes"/>
-    <change idref="t28" attribute="internalEffortDone" type="real" from="144000" to="0" resolved="yes"/>
+  <task-change-set user="Evan Sarmiento" date="2016-06-21T20:19:13.039Z" timestamp="2016-06-21T20:19:13.039Z">
+    <change idref="t119" attribute="internalEffortDone" type="real" from="0" to="28800" resolved="yes"/>
+    <change idref="t136" attribute="internalEffortDone" type="real" from="14400" to="26100" resolved="yes"/>
   </task-change-set>
 </changelog>

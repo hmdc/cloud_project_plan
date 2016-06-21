@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <omniplan xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opnx="http://www.omnigroup.com/namespace/OmniPlan/v2">
-  <window x="6" y="104" w="1436" h="758">
+  <window x="4" y="104" w="1436" h="758">
     <editing-scenario>keAedYKJIgZ</editing-scenario>
     <view>resource</view>
     <change-tracking/>
@@ -12,10 +12,10 @@
         <column name="Notes" width="20"/>
         <column name="Title" width="439"/>
         <column name="Effort" width="70"/>
-        <expanded-items idrefs="t30 t33 t110 t1 t16 t32 t54 t96 t67 t3 t66"/>
-        <expanded-item-notes idrefs="t30 t33 t59 t68 t16 t58 t64 t54 t63 t53"/>
+        <expanded-items idrefs="t30 t33 t110 t1 t16 t32 t67 t96 t54 t3 t66"/>
+        <expanded-item-notes idrefs="t30 t33 t59 t16 t58 t68 t64 t54 t63 t53"/>
       </outline>
-      <gantt-view x="0" y="0" w="880" h="675">
+      <gantt-view x="11345.5" y="0" w="880" h="675">
         <view-mode>actual</view-mode>
         <dependency-lines/>
         <constraints/>
@@ -69,7 +69,7 @@
         <column name="#" width="75"/>
         <selected-items-at-filter-time idrefs="r4 r3 r2"/>
       </outline>
-      <timeline x="6463.5" y="0" w="1100" h="675">
+      <timeline x="2394.5" y="0" w="1100" h="675">
         <offtime-display>none</offtime-display>
         <show-project-end/>
         <task-bar-label task-type="group" position="left">
@@ -113,7 +113,7 @@
     </resource-view>
     <calendar>
       <split-view-divider-position>290</split-view-divider-position>
-      <outline x="0" y="0" w="275" h="636">
+      <outline x="0" y="0" w="290" h="651">
         <column name="Notes" width="20"/>
         <column name="Type" width="49"/>
         <column name="Resource" width="175"/>
@@ -196,10 +196,10 @@ End:</group-table-style>
     <printinfo-dictionary>
       <key>OPPrintSettingPrintOption</key>
       <integer>0</integer>
-      <key>NSScalingFactor</key>
-      <real>1</real>
-      <key>NSPrinterName</key>
-      <string>10.245.84.99</string>
+      <key>NSTopMargin</key>
+      <real>90</real>
+      <key>NSBottomMargin</key>
+      <real>90</real>
       <key>NSRightMargin</key>
       <real>72</real>
       <key>NSPaperName</key>
@@ -208,10 +208,10 @@ End:</group-table-style>
       <real>72</real>
       <key>NSOrientation</key>
       <integer>0</integer>
-      <key>NSTopMargin</key>
-      <real>90</real>
-      <key>NSBottomMargin</key>
-      <real>90</real>
+      <key>NSScalingFactor</key>
+      <real>1</real>
+      <key>NSPrinterName</key>
+      <string>10.245.84.99</string>
     </printinfo-dictionary>
     <page-adornment>
       <master-page-headers>
