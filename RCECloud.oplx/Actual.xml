@@ -314,7 +314,7 @@
   <task id="t59">
     <title>Give Raman access to a basic Heroku account and ask him to deploy Dataverse Network to its and its components.</title>
     <effort>57600</effort>
-    <effort-done>39600</effort-done>
+    <effort-done>57600</effort-done>
     <start-constraint-date>2016-07-29T20:30:00.000Z</start-constraint-date>
     <note>
       <text>
@@ -500,6 +500,7 @@
   <task id="t88">
     <title>Find out what we need to backup, and when</title>
     <effort>28800</effort>
+    <effort-done>28800</effort-done>
     <start-constraint-date>2016-08-01T12:00:00.000Z</start-constraint-date>
     <assignment idref="r3"/>
     <start-no-earlier-than>2016-08-01T12:00:00.000Z</start-no-earlier-than>
@@ -514,7 +515,7 @@
   <task id="t90">
     <title>Get BackBlaze certified with OGC/HUIT</title>
     <effort>28800</effort>
-    <effort-done>14400</effort-done>
+    <effort-done>28800</effort-done>
     <start-constraint-date>2016-07-29T20:45:00.000Z</start-constraint-date>
     <assignment idref="r1"/>
     <start-no-earlier-than>2016-07-29T20:45:00.000Z</start-no-earlier-than>
@@ -529,7 +530,7 @@
   <task id="t92">
     <title>Buy and install host which performs backups</title>
     <effort>28800</effort>
-    <effort-done>23400</effort-done>
+    <effort-done>28800</effort-done>
     <start-constraint-date>2016-08-01T12:00:00.000Z</start-constraint-date>
     <assignment idref="r3"/>
     <start-no-earlier-than>2016-08-01T12:00:00.000Z</start-no-earlier-than>
@@ -699,7 +700,7 @@
   <task id="t131">
     <title>Certify Heroku with OGC</title>
     <effort>28800</effort>
-    <effort-done>19800</effort-done>
+    <effort-done>28800</effort-done>
     <start-constraint-date>2016-05-04T12:00:00.000Z</start-constraint-date>
     <start-no-earlier-than>2016-05-04T12:00:00.000Z</start-no-earlier-than>
   </task>
@@ -718,6 +719,7 @@
   <task id="t135">
     <title>Get Amazon certified for Level 4</title>
     <effort>28800</effort>
+    <effort-done>28800</effort-done>
     <start-constraint-date>2016-05-10T12:00:00.000Z</start-constraint-date>
     <start-no-earlier-than>2016-05-10T12:00:00.000Z</start-no-earlier-than>
   </task>
