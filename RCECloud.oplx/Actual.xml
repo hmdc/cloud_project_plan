@@ -73,12 +73,14 @@
   <task id="t-1">
     <type>group</type>
     <child-task idref="t1"/>
-    <child-task idref="t32"/>
-    <child-task idref="t66"/>
-    <child-task idref="t109"/>
+    <child-task idref="t147"/>
     <child-task idref="t76"/>
-    <child-task idref="t78"/>
-    <child-task idref="t96"/>
+    <child-task idref="t149"/>
+    <child-task idref="t150"/>
+    <child-task idref="t151"/>
+    <child-task idref="t154"/>
+    <child-task idref="t152"/>
+    <child-task idref="t32"/>
     <child-task idref="t110"/>
   </task>
   <task id="t1">
@@ -110,20 +112,23 @@
   <task id="t5">
     <title>Use HashBackup</title>
     <effort>144900</effort>
+    <effort-done>144900</effort-done>
     <start-constraint-date>2016-08-01T12:00:00.000Z</start-constraint-date>
     <assignment idref="r1"/>
     <start-no-earlier-than>2016-08-01T12:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t11">
     <title>Re-write documentation on backing up user, project data, and restoration to conform to BackBlaze backup system.</title>
-    <effort>57600</effort>
-    <start-constraint-date>2016-08-01T12:00:00.000Z</start-constraint-date>
+    <effort>576000</effort>
+    <effort-done>576000</effort-done>
+    <start-constraint-date>2016-11-20T13:00:00.000Z</start-constraint-date>
     <assignment idref="r1"/>
-    <start-no-earlier-than>2016-08-01T12:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2016-11-20T13:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t12">
     <title>Measure performance and reliability of process; backup data to tapes and BackBlaze</title>
     <effort>144000</effort>
+    <effort-done>144000</effort-done>
     <start-constraint-date>2016-05-02T15:00:00.000Z</start-constraint-date>
     <prerequisite-task idref="t5"/>
     <assignment idref="r1"/>
@@ -155,8 +160,8 @@
   </task>
   <task id="t25">
     <title>Work with provider to upgrade and maintain RT installation.</title>
-    <effort>288000</effort>
-    <effort-done>260100</effort-done>
+    <effort>3024900</effort>
+    <effort-done>2419919.85576153</effort-done>
     <start-constraint-date>2016-08-05T20:15:00.000Z</start-constraint-date>
     <note>
       <text>
@@ -211,6 +216,7 @@
     <child-task idref="t40"/>
     <child-task idref="t33"/>
     <prerequisite-task idref="t1"/>
+    <prerequisite-task idref="t76"/>
   </task>
   <task id="t33">
     <title>Upgrade/migrate LDAP to CentOS 6/7/Amazon</title>
@@ -222,7 +228,7 @@
       <text>
         <p>
           <run>
-            <lit>Maybe put slave hosts in different zones? Expose via Amazon LB. We need to make sure this works for CentOS 7 as well if we go to Azure.</lit>
+            <lit>Maybe put slave hosts in different zones? Expose via Amazon LB. We need to make sure this works for CentOS 7 as well if we go to Azure. De-password-ify LDAP and use CAS to perform password authentication.</lit>
           </run>
         </p>
       </text>
@@ -232,19 +238,21 @@
   <task id="t40">
     <title>Migrate DNS to Route 53/Azure</title>
     <effort>144000</effort>
+    <effort-done>144000</effort-done>
     <start-constraint-date>2016-08-01T12:00:00.000Z</start-constraint-date>
     <start-no-earlier-than>2016-08-01T12:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t41">
     <title>Migrate appropriate DHCP options to Amazon DHCP</title>
     <effort>144000</effort>
+    <effort-done>144000</effort-done>
     <start-constraint-date>2016-08-01T12:00:00.000Z</start-constraint-date>
     <start-no-earlier-than>2016-08-01T12:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t53">
     <title>Work with Heroku to determine enterprise pricing for the amount of web sites we host.</title>
     <effort>86400</effort>
-    <effort-done>35100</effort-done>
+    <effort-done>86400</effort-done>
     <start-constraint-date>2016-07-29T20:30:00.000Z</start-constraint-date>
     <note>
       <text>
@@ -283,8 +291,9 @@
   <task id="t56">
     <title>Determine the best method to migrate our users permissions to Heroku: How much CPU time should they get? How much memory should they get? Should they be allowed to provision as many websites as they want, etc.</title>
     <effort>144000</effort>
+    <effort-done>144000</effort-done>
     <start-constraint-date>2016-07-29T20:30:00.000Z</start-constraint-date>
-    <assignment idref="r2"/>
+    <assignment idref="r1"/>
     <start-no-earlier-than>2016-07-29T20:30:00.000Z</start-no-earlier-than>
   </task>
   <task id="t57">
@@ -298,6 +307,7 @@
   <task id="t58">
     <title>Work with Gary and Cris to decide how much support we provide for users in the Heroku environment: Do we help them setup GitHub repositories? Do we help them with basic PHP programming fundamentals, permissions? </title>
     <effort>86400</effort>
+    <effort-done>86400</effort-done>
     <start-constraint-date>2016-07-29T20:30:00.000Z</start-constraint-date>
     <note>
       <text>
@@ -330,15 +340,14 @@
   </task>
   <task id="t62">
     <title>Migrate all sites to Heroku. Provide a deadline.</title>
-    <effort>28800</effort>
-    <effort-done>3600</effort-done>
-    <start-constraint-date>2016-07-29T20:45:00.000Z</start-constraint-date>
+    <effort>6393600</effort>
+    <effort-done>23400</effort-done>
     <assignment idref="r1"/>
-    <start-no-earlier-than>2016-07-29T20:45:00.000Z</start-no-earlier-than>
   </task>
   <task id="t63">
-    <title>Ask DVN to migrate their entire toolchain to Heroku. Provide a deadline.</title>
-    <effort>28800</effort>
+    <title>Ask DVN to migrate their entire toolchain to the Cloud. Provide a deadline.</title>
+    <effort>4406400</effort>
+    <effort-done>28800</effort-done>
     <start-constraint-date>2016-08-01T12:00:00.000Z</start-constraint-date>
     <note>
       <text>
@@ -366,135 +375,21 @@
       </text>
     </note>
   </task>
-  <task id="t66">
-    <title>Rectify Puppet manifests with AWS/Cloud and CentOS 7</title>
-    <type>group</type>
-    <child-task idref="t67"/>
-    <child-task idref="t72"/>
-    <child-task idref="t73"/>
-    <child-task idref="t74"/>
-    <prerequisite-task idref="t32"/>
-  </task>
-  <task id="t67">
-    <title>Migrate hmdc-admin repository to GitHub</title>
-    <type>group</type>
-    <child-task idref="t68"/>
-    <child-task idref="t69"/>
-    <child-task idref="t71"/>
-  </task>
-  <task id="t68">
-    <title>Mine hmdc-admin for passwords and remove or place passwords elsewhere.</title>
-    <effort>144000</effort>
-    <effort-done>15300</effort-done>
-    <start-constraint-date>2016-09-16T20:45:00.000Z</start-constraint-date>
-    <note>
-      <text>
-        <p>
-          <run>
-            <lit>There may be a faster way of doing this. We may just want to truncate our Git history. Similarly, because we are moving to the Cloud, we may not need passwords like the Server Reports password statically defined inside our repository.</lit>
-          </run>
-        </p>
-      </text>
-    </note>
-    <assignment idref="r1"/>
-    <start-no-earlier-than>2016-09-16T20:45:00.000Z</start-no-earlier-than>
-  </task>
-  <task id="t69">
-    <title>Push de-password-ified hmdc-admin repository to GitHub.</title>
-    <effort>28800</effort>
-    <start-constraint-date>2016-09-16T20:45:00.000Z</start-constraint-date>
-    <assignment idref="r1"/>
-    <start-no-earlier-than>2016-09-16T20:45:00.000Z</start-no-earlier-than>
-  </task>
-  <task id="t71">
-    <title>Retire HUIT GIT account, but keep a backup of hmdc-admin on NFS in case need to look at commit history.</title>
-    <effort>5400</effort>
-    <start-constraint-date>2016-09-16T20:45:00.000Z</start-constraint-date>
-    <assignment idref="r1"/>
-    <start-no-earlier-than>2016-09-16T20:45:00.000Z</start-no-earlier-than>
-  </task>
-  <task id="t72">
-    <title>Test all pertinent modules on AWS, CentOS 7, make changes accordingly.</title>
-    <effort>345600</effort>
-    <effort-done>33300</effort-done>
-    <start-constraint-date>2016-09-16T20:30:00.000Z</start-constraint-date>
-    <assignment idref="r1"/>
-    <start-no-earlier-than>2016-09-16T20:30:00.000Z</start-no-earlier-than>
-  </task>
-  <task id="t73">
-    <title>Hiera-ify all data structures currently used in hmdc-admin, adding an $::operatingsystem entry to the Hiera tree.</title>
-    <effort>144000</effort>
-    <start-constraint-date>2016-09-16T20:30:00.000Z</start-constraint-date>
-    <assignment idref="r2"/>
-    <start-no-earlier-than>2016-09-16T20:30:00.000Z</start-no-earlier-than>
-  </task>
-  <task id="t74">
-    <title>Write spec tests for all modules which lack spec tests.</title>
-    <effort>288000</effort>
-    <start-constraint-date>2016-09-16T20:30:00.000Z</start-constraint-date>
-    <assignment idref="r2"/>
-    <start-no-earlier-than>2016-09-16T20:30:00.000Z</start-no-earlier-than>
-  </task>
   <task id="t76">
     <title>AWS/AZURE/Cloud migration preparations complete</title>
     <type>milestone</type>
-    <start-constraint-date>2016-04-25T18:00:00.000Z</start-constraint-date>
-    <prerequisite-task idref="t66"/>
-    <start-no-earlier-than>2016-04-25T18:00:00.000Z</start-no-earlier-than>
-  </task>
-  <task id="t78">
-    <title>Prepare RCE/AWS/AZURE demo. environment</title>
-    <type>group</type>
-    <start-constraint-date>2016-04-24T04:00:00.000Z</start-constraint-date>
-    <child-task idref="t95"/>
-    <child-task idref="t86"/>
-    <child-task idref="t80"/>
-    <child-task idref="t81"/>
-    <child-task idref="t83"/>
-    <child-task idref="t82"/>
-    <prerequisite-task idref="t76" kind="SS"/>
-    <start-no-earlier-than>2016-04-24T04:00:00.000Z</start-no-earlier-than>
-  </task>
-  <task id="t80">
-    <title>Install NX4/5 Portal (?)</title>
-    <effort>288000</effort>
-    <start-constraint-date>2016-10-04T20:30:00.000Z</start-constraint-date>
-    <assignment idref="r1"/>
-    <start-no-earlier-than>2016-10-04T20:30:00.000Z</start-no-earlier-than>
-  </task>
-  <task id="t81">
-    <title>Install NX4/5 login nodes</title>
-    <effort>288000</effort>
-    <start-constraint-date>2016-10-04T20:30:00.000Z</start-constraint-date>
-    <assignment idref="r1"/>
-    <start-no-earlier-than>2016-10-04T20:30:00.000Z</start-no-earlier-than>
-  </task>
-  <task id="t82">
-    <title>Deploy 2..3 high memory EC2 instances for HTCondor startd(s), permanent.</title>
-    <effort>144000</effort>
-    <start-constraint-date>2016-10-04T20:30:00.000Z</start-constraint-date>
-    <assignment idref="r1"/>
-    <start-no-earlier-than>2016-10-04T20:30:00.000Z</start-no-earlier-than>
-  </task>
-  <task id="t83">
-    <title>Deploy HTCondor collector/negotiator</title>
-    <effort>144000</effort>
-    <start-constraint-date>2016-10-04T20:30:00.000Z</start-constraint-date>
-    <assignment idref="r1"/>
-    <start-no-earlier-than>2016-10-04T20:30:00.000Z</start-no-earlier-than>
-  </task>
-  <task id="t86">
-    <title>Reconfigure AWS/AZURE networking to expose a public interface for NX4 portal</title>
-    <effort>115200</effort>
-    <start-constraint-date>2016-08-01T12:00:00.000Z</start-constraint-date>
-    <assignment idref="r4"/>
-    <start-no-earlier-than>2016-08-01T12:00:00.000Z</start-no-earlier-than>
+    <completion-percentage>1</completion-percentage>
+    <start-constraint-date>2016-12-12T19:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t1"/>
+    <prerequisite-task idref="t147"/>
+    <start-no-earlier-than>2016-12-12T19:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t87">
     <title>Work with BackBlaze to find the most efficient way of pushing this data</title>
     <effort>28800</effort>
     <effort-done>28800</effort-done>
     <start-constraint-date>2016-04-28T12:00:00.000Z</start-constraint-date>
+    <assignment idref="r1"/>
     <start-no-earlier-than>2016-04-28T12:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t88">
@@ -508,6 +403,7 @@
   <task id="t89">
     <title>Create a basic-enterprise HMDC Heroku account with some limits.</title>
     <effort>28800</effort>
+    <effort-done>28800</effort-done>
     <start-constraint-date>2016-08-01T12:00:00.000Z</start-constraint-date>
     <assignment idref="r1"/>
     <start-no-earlier-than>2016-08-01T12:00:00.000Z</start-no-earlier-than>
@@ -523,6 +419,7 @@
   <task id="t91">
     <title>Work with Salesforce/Heroku to build an HMDC Heroku Enterprise contract</title>
     <effort>144000</effort>
+    <effort-done>144000</effort-done>
     <start-constraint-date>2016-07-29T20:45:00.000Z</start-constraint-date>
     <assignment idref="r1"/>
     <start-no-earlier-than>2016-07-29T20:45:00.000Z</start-no-earlier-than>
@@ -538,93 +435,9 @@
   <task id="t94">
     <title>Migrate and decommission Jenkins, reuse.</title>
     <effort>144000</effort>
+    <effort-done>144000</effort-done>
     <start-constraint-date>2016-07-29T20:45:00.000Z</start-constraint-date>
     <assignment idref="r1"/>
-    <start-no-earlier-than>2016-07-29T20:45:00.000Z</start-no-earlier-than>
-  </task>
-  <task id="t95">
-    <title>Experiment with using Offline ClassAds to scale</title>
-    <effort>144000</effort>
-    <start-constraint-date>2016-10-04T20:45:00.000Z</start-constraint-date>
-    <assignment idref="r1"/>
-    <start-no-earlier-than>2016-10-04T20:45:00.000Z</start-no-earlier-than>
-  </task>
-  <task id="t96">
-    <title>Production-ize RCE AWS/AZURE environment</title>
-    <type>group</type>
-    <start-constraint-date>2016-05-02T12:00:00.000Z</start-constraint-date>
-    <child-task idref="t106"/>
-    <child-task idref="t98"/>
-    <child-task idref="t104"/>
-    <child-task idref="t105"/>
-    <child-task idref="t114"/>
-    <child-task idref="t115"/>
-    <prerequisite-task idref="t78" kind="SS"/>
-    <start-no-earlier-than>2016-05-02T12:00:00.000Z</start-no-earlier-than>
-  </task>
-  <task id="t98">
-    <title>Investigate using New Relic, Boundary, or Opsview.</title>
-    <type>group</type>
-    <start-constraint-date>2016-05-02T12:00:00.000Z</start-constraint-date>
-    <child-task idref="t100"/>
-    <child-task idref="t101"/>
-    <child-task idref="t102"/>
-    <start-no-earlier-than>2016-05-02T12:00:00.000Z</start-no-earlier-than>
-  </task>
-  <task id="t100">
-    <title>Demo solutions in the cloud environment.</title>
-    <effort>288000</effort>
-    <start-constraint-date>2016-07-29T20:45:00.000Z</start-constraint-date>
-    <assignment idref="r4"/>
-    <start-no-earlier-than>2016-07-29T20:45:00.000Z</start-no-earlier-than>
-  </task>
-  <task id="t101">
-    <title>Set-up appropriate alerts.</title>
-    <effort>288000</effort>
-    <start-constraint-date>2016-08-01T12:00:00.000Z</start-constraint-date>
-    <assignment idref="r4"/>
-    <start-no-earlier-than>2016-08-01T12:00:00.000Z</start-no-earlier-than>
-  </task>
-  <task id="t102">
-    <title>Migrate pertinent monitors from OpsView to cloud solution, could be OpsView.</title>
-    <effort>576000</effort>
-    <start-constraint-date>2016-08-01T12:00:00.000Z</start-constraint-date>
-    <assignment idref="r4"/>
-    <start-no-earlier-than>2016-08-01T12:00:00.000Z</start-no-earlier-than>
-  </task>
-  <task id="t104">
-    <title>Document monitoring</title>
-    <effort>144000</effort>
-    <start-constraint-date>2016-07-29T20:15:00.000Z</start-constraint-date>
-    <assignment idref="r4"/>
-    <start-no-earlier-than>2016-07-29T20:15:00.000Z</start-no-earlier-than>
-  </task>
-  <task id="t105">
-    <title>Integrate monitoring with Puppet if necessary</title>
-    <effort>288000</effort>
-    <start-constraint-date>2016-08-01T12:00:00.000Z</start-constraint-date>
-    <assignment idref="r1"/>
-    <start-no-earlier-than>2016-08-01T12:00:00.000Z</start-no-earlier-than>
-  </task>
-  <task id="t106">
-    <title>Performance testing</title>
-    <type>group</type>
-    <start-constraint-date>2016-05-02T12:00:00.000Z</start-constraint-date>
-    <child-task idref="t108"/>
-    <start-no-earlier-than>2016-05-02T12:00:00.000Z</start-no-earlier-than>
-  </task>
-  <task id="t108">
-    <title>Performance test NoMachine and XPRA latency, compared to local.</title>
-    <effort>144000</effort>
-    <start-constraint-date>2016-07-29T20:30:00.000Z</start-constraint-date>
-    <assignment idref="r1"/>
-    <start-no-earlier-than>2016-07-29T20:30:00.000Z</start-no-earlier-than>
-  </task>
-  <task id="t109">
-    <title>Create cloud agnostic template for RCE deployment</title>
-    <effort>288000</effort>
-    <start-constraint-date>2016-07-29T20:45:00.000Z</start-constraint-date>
-    <assignment idref="r4"/>
     <start-no-earlier-than>2016-07-29T20:45:00.000Z</start-no-earlier-than>
   </task>
   <task id="t110">
@@ -636,33 +449,21 @@
     <child-task idref="t117"/>
     <child-task idref="t118"/>
     <child-task idref="t119"/>
-    <prerequisite-task idref="t96" kind="SS"/>
+    <prerequisite-task idref="t76"/>
     <start-no-earlier-than>2016-05-02T12:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t113">
     <title>Slowly de-commission execute nodes, sell or move to recycling.</title>
     <effort>144000</effort>
+    <effort-done>144000</effort-done>
     <start-constraint-date>2016-07-29T20:30:00.000Z</start-constraint-date>
     <assignment idref="r3"/>
     <start-no-earlier-than>2016-07-29T20:30:00.000Z</start-no-earlier-than>
   </task>
-  <task id="t114">
-    <title>Determine proper default for amount of compute machines available, test autoscaling under average load.</title>
-    <effort>28800</effort>
-    <start-constraint-date>2016-08-01T12:00:00.000Z</start-constraint-date>
-    <assignment idref="r1"/>
-    <start-no-earlier-than>2016-08-01T12:00:00.000Z</start-no-earlier-than>
-  </task>
-  <task id="t115">
-    <title>Reconfigure RCE Cluster Tools (rce_submit.py) to, instead of polling, send email notification when job is active.</title>
-    <effort>28800</effort>
-    <start-constraint-date>2016-08-01T12:00:00.000Z</start-constraint-date>
-    <assignment idref="r1"/>
-    <start-no-earlier-than>2016-08-01T12:00:00.000Z</start-no-earlier-than>
-  </task>
   <task id="t116">
     <title>De-commission RCE Login nodes, sell or cycle, migrate licenses to Cloud.</title>
     <effort>144000</effort>
+    <effort-done>144000</effort-done>
     <start-constraint-date>2016-07-29T20:45:00.000Z</start-constraint-date>
     <assignment idref="r3"/>
     <start-no-earlier-than>2016-07-29T20:45:00.000Z</start-no-earlier-than>
@@ -670,6 +471,7 @@
   <task id="t117">
     <title>With all web apps migrated to Heroku, turn off and recycle www-* hosts.</title>
     <effort>144000</effort>
+    <effort-done>144000</effort-done>
     <start-constraint-date>2016-07-29T20:45:00.000Z</start-constraint-date>
     <assignment idref="r3"/>
     <start-no-earlier-than>2016-07-29T20:45:00.000Z</start-no-earlier-than>
@@ -692,9 +494,10 @@
   </task>
   <task id="t130">
     <title>Automate patching procedure</title>
-    <effort>28800</effort>
-    <effort-done>28800</effort-done>
+    <effort>144000</effort>
+    <effort-done>144000</effort-done>
     <start-constraint-date>2016-05-04T12:00:00.000Z</start-constraint-date>
+    <assignment idref="r1"/>
     <start-no-earlier-than>2016-05-04T12:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t131">
@@ -702,22 +505,25 @@
     <effort>28800</effort>
     <effort-done>28800</effort-done>
     <start-constraint-date>2016-05-04T12:00:00.000Z</start-constraint-date>
+    <assignment idref="r1"/>
     <start-no-earlier-than>2016-05-04T12:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t133">
     <title>Migrate CGA hardware out of data center</title>
-    <effort>28800</effort>
+    <effort>6220800</effort>
+    <effort-done>4354559.92584229</effort-done>
     <start-constraint-date>2016-05-04T12:00:00.000Z</start-constraint-date>
     <start-no-earlier-than>2016-05-04T12:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t134">
-    <title>Build and test LDAP on CentOS 6/Amazon</title>
+    <title>Build and test LDAP on CentOS 7/Amazon</title>
     <effort>28800</effort>
+    <effort-done>28800</effort-done>
     <start-constraint-date>2016-05-10T12:00:00.000Z</start-constraint-date>
     <start-no-earlier-than>2016-05-10T12:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t135">
-    <title>Get Amazon certified for Level 4</title>
+    <title>Get Amazon certified for Level 4 with Direct Connect.</title>
     <effort>28800</effort>
     <effort-done>28800</effort-done>
     <start-constraint-date>2016-05-10T12:00:00.000Z</start-constraint-date>
@@ -725,10 +531,149 @@
   </task>
   <task id="t136">
     <title>Decommission old/unused hardware.</title>
-    <effort>28800</effort>
-    <effort-done>26100</effort-done>
+    <effort>1929600</effort>
+    <effort-done>1929600</effort-done>
     <start-constraint-date>2016-05-10T12:45:00.000Z</start-constraint-date>
     <start-no-earlier-than>2016-05-10T12:45:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t147">
+    <title>Work with Microsoft to build RCE-in-Azure launching pad</title>
+    <effort>4585500</effort>
+    <effort-done>4585500</effort-done>
+    <start-constraint-date>2016-04-27T12:00:00.000Z</start-constraint-date>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2016-04-27T12:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t149">
+    <title>Test RCE/Azure PoC with a small user-base</title>
+    <effort>288000</effort>
+    <start-constraint-date>2017-01-01T13:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-01-01T13:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t150">
+    <title>Re-design RCE/Azure to support multi-cloud submission</title>
+    <type>group</type>
+    <start-constraint-date>2017-01-01T13:00:00.000Z</start-constraint-date>
+    <child-task idref="t157"/>
+    <child-task idref="t158"/>
+    <child-task idref="t159"/>
+    <child-task idref="t160"/>
+    <child-task idref="t161"/>
+    <child-task idref="t162"/>
+    <child-task idref="t163"/>
+    <child-task idref="t164"/>
+    <child-task idref="t165"/>
+    <child-task idref="t166"/>
+    <child-task idref="t167"/>
+    <child-task idref="t169"/>
+    <prerequisite-task idref="t149"/>
+    <start-no-earlier-than>2017-01-01T13:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t151">
+    <title>RCE Cloud public beta release</title>
+    <type>milestone</type>
+    <start-constraint-date>2017-08-01T21:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t149"/>
+    <prerequisite-task idref="t150"/>
+    <start-no-earlier-than>2017-08-01T21:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t152">
+    <title>Begin to migrate users to RCE Cloud</title>
+    <effort>662400</effort>
+    <start-constraint-date>2017-10-01T12:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t154"/>
+    <start-no-earlier-than>2017-10-01T12:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t154">
+    <title>Resolve any outstanding bugs acquired from BETA release</title>
+    <effort>1238400</effort>
+    <start-constraint-date>2016-12-12T13:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t151"/>
+    <start-no-earlier-than>2016-12-12T13:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t157">
+    <title>Use docker containers for applications rather than stored images, export with XPRA.</title>
+    <effort>691200</effort>
+    <start-constraint-date>2016-12-12T13:00:00.000Z</start-constraint-date>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2016-12-12T13:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t158">
+    <title>Build REDIS queue and worker to distribute tasks to multiple clouds</title>
+    <effort>604800</effort>
+    <start-constraint-date>2017-02-16T13:00:00.000Z</start-constraint-date>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2017-02-16T13:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t159">
+    <title>Build docker images for HTCondor negotiator, collector, and schedd for AWS with redundancy</title>
+    <effort>604800</effort>
+    <start-constraint-date>2017-02-16T13:00:00.000Z</start-constraint-date>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2017-02-16T13:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t160">
+    <title>Redesign RCE/Azure application to submit jobs to redis queue and manage jobs through the redis queue and associated workers</title>
+    <effort>633600</effort>
+    <start-constraint-date>2017-03-16T12:00:00.000Z</start-constraint-date>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2017-03-16T12:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t161">
+    <title>Scale NodeJS web service appropriately using npm-cluster/multiple workers</title>
+    <effort>691200</effort>
+    <start-constraint-date>2017-05-16T12:00:00.000Z</start-constraint-date>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2017-05-16T12:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t162">
+    <title>Implement tests for NodeJS code</title>
+    <effort>604800</effort>
+    <start-constraint-date>2017-06-16T12:00:00.000Z</start-constraint-date>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2017-06-16T12:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t163">
+    <title>Use Terraform to create abstract cloud configurations for AWS and Azure</title>
+    <effort>1267200</effort>
+    <start-constraint-date>2016-12-12T13:00:00.000Z</start-constraint-date>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2016-12-12T13:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t164">
+    <title>Use Packer to create rudimentary disk images (if necessary), although cloud-init should handle the entire process</title>
+    <effort>28800</effort>
+    <start-constraint-date>2016-12-12T13:00:00.000Z</start-constraint-date>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2016-12-12T13:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t165">
+    <title>Auto-build and test docker images</title>
+    <effort>633600</effort>
+    <start-constraint-date>2017-03-16T12:00:00.000Z</start-constraint-date>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2017-03-16T12:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t166">
+    <title>Implement monitoring for RCE Cloud</title>
+    <effort>950400</effort>
+    <start-constraint-date>2017-06-16T12:00:00.000Z</start-constraint-date>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2017-06-16T12:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t167">
+    <title>Allow mounting of home directories - CI3/CI4 to Azure and CI3/CI4 to Amazon</title>
+    <effort>691200</effort>
+    <start-constraint-date>2017-05-01T12:00:00.000Z</start-constraint-date>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2017-05-01T12:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t169">
+    <title>Pare down and migrate Puppet/Capistrano to GitHub with best practices</title>
+    <effort>4089600</effort>
+    <start-constraint-date>2016-12-12T13:00:00.000Z</start-constraint-date>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2016-12-12T13:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>

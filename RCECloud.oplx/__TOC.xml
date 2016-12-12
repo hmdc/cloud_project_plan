@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <omniplan xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opnx="http://www.omnigroup.com/namespace/OmniPlan/v2">
-  <window x="4" y="104" w="1436" h="758">
+  <window x="0" y="0" w="1440" h="858">
     <editing-scenario>keAedYKJIgZ</editing-scenario>
     <view>task</view>
     <change-tracking/>
     <status-display>basic</status-display>
     <task-view>
-      <split-view-divider-position>554</split-view-divider-position>
-      <outline x="0" y="0" w="554" h="675">
+      <split-view-divider-position>443</split-view-divider-position>
+      <outline x="0" y="40.5" w="443" h="835">
         <column name="Violations" width="20"/>
         <column name="Notes" width="20"/>
-        <column name="Title" width="439"/>
+        <column name="Title" width="328"/>
         <column name="Effort" width="70"/>
-        <expanded-items idrefs="t1 t33 t110 t30 t16 t32 t54 t96 t67 t3 t66"/>
-        <expanded-item-notes idrefs="t30 t33 t59 t68 t58 t16 t64 t54 t63 t53"/>
+        <expanded-items idrefs="t30 t33 t110 t16 t32 t150 t54 t3 t67"/>
+        <expanded-item-notes idrefs="t30 t59 t33 t16 t68 t58 t64 t54 t63 t53"/>
+        <selected-items-at-filter-time idrefs="t168 t157 t161 t150 t166 t155 t149 t164 t153 t169 t158 t147 t162 t151 t167 t156 t160 t165 t154 t159 t148 t163 t152"/>
       </outline>
-      <gantt-view x="7805" y="0" w="880" h="675">
+      <gantt-view x="32790.5" y="40.5" w="695" h="835">
         <view-mode>actual</view-mode>
         <dependency-lines/>
         <constraints/>
@@ -62,14 +63,14 @@
     </task-view>
     <resource-view>
       <split-view-divider-position>306</split-view-divider-position>
-      <outline x="0" y="0" w="306" h="675">
+      <outline x="0" y="0" w="306" h="835">
         <column name="Notes" width="20"/>
         <column name="Type" width="49"/>
         <column name="Resource" width="135"/>
         <column name="#" width="75"/>
         <selected-items-at-filter-time idrefs="r4 r3 r2"/>
       </outline>
-      <timeline x="2394.5" y="0" w="1100" h="675">
+      <timeline x="20612.5" y="254.5" w="804" h="835">
         <offtime-display>none</offtime-display>
         <show-project-end/>
         <task-bar-label task-type="group" position="left">
@@ -113,7 +114,7 @@
     </resource-view>
     <calendar>
       <split-view-divider-position>290</split-view-divider-position>
-      <outline x="0" y="0" w="290" h="651">
+      <outline x="0" y="0" w="290" h="811">
         <column name="Notes" width="20"/>
         <column name="Type" width="49"/>
         <column name="Resource" width="175"/>
@@ -136,7 +137,7 @@ End:</group-table-style>
     </network-view>
   </window>
   <project>
-    <next-task-id>142</next-task-id>
+    <next-task-id>170</next-task-id>
     <next-resource-id>8</next-resource-id>
     <scenario id="keAedYKJIgZ" name="Actual" filename="Actual.xml"/>
     <date-display dates="true" times="true" seconds="false"/>
@@ -196,10 +197,10 @@ End:</group-table-style>
     <printinfo-dictionary>
       <key>OPPrintSettingPrintOption</key>
       <integer>0</integer>
-      <key>NSTopMargin</key>
-      <real>90</real>
-      <key>NSBottomMargin</key>
-      <real>90</real>
+      <key>NSScalingFactor</key>
+      <real>1</real>
+      <key>NSPrinterName</key>
+      <string>10.245.84.99</string>
       <key>NSRightMargin</key>
       <real>72</real>
       <key>NSPaperName</key>
@@ -208,10 +209,10 @@ End:</group-table-style>
       <real>72</real>
       <key>NSOrientation</key>
       <integer>0</integer>
-      <key>NSScalingFactor</key>
-      <real>1</real>
-      <key>NSPrinterName</key>
-      <string>10.245.84.99</string>
+      <key>NSTopMargin</key>
+      <real>90</real>
+      <key>NSBottomMargin</key>
+      <real>90</real>
     </printinfo-dictionary>
     <page-adornment>
       <master-page-headers>
