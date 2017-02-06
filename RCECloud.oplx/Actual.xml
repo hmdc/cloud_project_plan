@@ -347,7 +347,7 @@
   <task id="t63">
     <title>Ask DVN to migrate their entire toolchain to the Cloud. Provide a deadline.</title>
     <effort>4406400</effort>
-    <effort-done>2643839.84241486</effort-done>
+    <effort-done>2643839.75</effort-done>
     <start-constraint-date>2016-08-01T12:00:00.000Z</start-constraint-date>
     <note>
       <text>
@@ -561,7 +561,6 @@
     <child-task idref="t161"/>
     <child-task idref="t162"/>
     <child-task idref="t163"/>
-    <child-task idref="t164"/>
     <child-task idref="t165"/>
     <child-task idref="t166"/>
     <child-task idref="t167"/>
@@ -594,6 +593,7 @@
   <task id="t157">
     <title>Use docker containers for applications rather than stored images, export with XPRA.</title>
     <effort>691200</effort>
+    <effort-done>41400</effort-done>
     <start-constraint-date>2016-12-12T13:00:00.000Z</start-constraint-date>
     <assignment idref="r1"/>
     <start-no-earlier-than>2016-12-12T13:00:00.000Z</start-no-earlier-than>
@@ -634,15 +634,8 @@
     <start-no-earlier-than>2017-06-16T12:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t163">
-    <title>Use Terraform to create abstract cloud configurations for AWS and Azure</title>
+    <title>Use Terraform to create abstract cloud configurations for AWS, Azure, Google</title>
     <effort>1267200</effort>
-    <start-constraint-date>2016-12-12T13:00:00.000Z</start-constraint-date>
-    <assignment idref="r1"/>
-    <start-no-earlier-than>2016-12-12T13:00:00.000Z</start-no-earlier-than>
-  </task>
-  <task id="t164">
-    <title>Use Packer to create rudimentary disk images (if necessary), although cloud-init should handle the entire process</title>
-    <effort>28800</effort>
     <start-constraint-date>2016-12-12T13:00:00.000Z</start-constraint-date>
     <assignment idref="r1"/>
     <start-no-earlier-than>2016-12-12T13:00:00.000Z</start-no-earlier-than>
@@ -657,6 +650,7 @@
   <task id="t166">
     <title>Implement monitoring for RCE Cloud</title>
     <effort>950400</effort>
+    <effort-done>95039.9943351746</effort-done>
     <start-constraint-date>2017-06-16T12:00:00.000Z</start-constraint-date>
     <assignment idref="r1"/>
     <start-no-earlier-than>2017-06-16T12:00:00.000Z</start-no-earlier-than>

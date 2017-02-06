@@ -7,16 +7,16 @@
     <status-display>basic</status-display>
     <task-view>
       <split-view-divider-position>443</split-view-divider-position>
-      <outline x="0" y="1106" w="443" h="775">
+      <outline x="0" y="0" w="443" h="770">
         <column name="Violations" width="20"/>
         <column name="Notes" width="20"/>
         <column name="Title" width="328"/>
         <column name="Effort" width="70"/>
-        <expanded-items idrefs="t30 t33 t110 t16 t32 t150 t54 t3 t1"/>
-        <expanded-item-notes idrefs="t30 t33 t59 t16 t58 t64 t54 t63 t53"/>
-        <selected-items-at-filter-time idrefs="t165 t161 t151 t159 t149 t158 t160 t150 t154 t164 t167 t163 t147 t157 t166 t162 t152 t169"/>
+        <expanded-items idrefs="t150 t33 t54 t110 t16"/>
+        <expanded-item-notes idrefs="t30 t59 t33 t16 t58 t64 t54 t63 t53"/>
+        <selected-items-at-filter-time idrefs="t165 t161 t151 t159 t149 t164 t154 t160 t150 t158 t167 t157 t147 t163 t166 t162 t152 t169"/>
       </outline>
-      <gantt-view x="32790.5" y="1106" w="691" h="775">
+      <gantt-view x="15215" y="0" w="691" h="770">
         <view-mode>actual</view-mode>
         <dependency-lines/>
         <constraints/>
@@ -197,10 +197,10 @@ End:</group-table-style>
     <printinfo-dictionary>
       <key>OPPrintSettingPrintOption</key>
       <integer>0</integer>
-      <key>NSTopMargin</key>
-      <real>90</real>
-      <key>NSBottomMargin</key>
-      <real>90</real>
+      <key>NSScalingFactor</key>
+      <real>1</real>
+      <key>NSPrinterName</key>
+      <string>10.245.84.99</string>
       <key>NSRightMargin</key>
       <real>72</real>
       <key>NSPaperName</key>
@@ -209,10 +209,10 @@ End:</group-table-style>
       <real>72</real>
       <key>NSOrientation</key>
       <integer>0</integer>
-      <key>NSScalingFactor</key>
-      <real>1</real>
-      <key>NSPrinterName</key>
-      <string>10.245.84.99</string>
+      <key>NSTopMargin</key>
+      <real>90</real>
+      <key>NSBottomMargin</key>
+      <real>90</real>
     </printinfo-dictionary>
     <page-adornment>
       <master-page-headers>
