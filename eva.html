@@ -659,7 +659,7 @@
 	</tr>
 		
 	<tr>
-		<td style="padding-left: 18px;" class="wrap">5) Re-design RCE/Azure to support multi-cloud submission</td>
+		<td style="padding-left: 18px;" class="wrap">5) Re-design authentication/authorization</td>
 		<td></td>
 		<td></td>
 		<td></td>
@@ -676,7 +676,7 @@
 	</tr>
 		
 	<tr>
-		<td style="padding-left: 28px;" class="wrap">5.1) Use docker containers for applications rather than stored images, export with XPRA.</td>
+		<td style="padding-left: 28px;" class="wrap">5.1) Create a small web app — my.hmdc — to sync accounts.</td>
 		<td></td>
 		<td></td>
 		<td></td>
@@ -693,7 +693,7 @@
 	</tr>
 		
 	<tr>
-		<td style="padding-left: 28px;" class="wrap">5.2) Build REDIS queue and worker to distribute tasks to multiple clouds</td>
+		<td style="padding-left: 28px;" class="wrap">5.2) Work with Harvard IAM to develop security procedures around LDAP re-writes.</td>
 		<td></td>
 		<td></td>
 		<td></td>
@@ -710,7 +710,7 @@
 	</tr>
 		
 	<tr>
-		<td style="padding-left: 28px;" class="wrap">5.3) Build docker images for HTCondor negotiator, collector, and schedd for AWS with redundancy</td>
+		<td style="padding-left: 28px;" class="wrap">5.3) Develop re-write engine to sync Harvard Key and local LDAP accounts.</td>
 		<td></td>
 		<td></td>
 		<td></td>
@@ -727,7 +727,7 @@
 	</tr>
 		
 	<tr>
-		<td style="padding-left: 28px;" class="wrap">5.4) Redesign RCE/Azure application to submit jobs to redis queue and manage jobs through the redis queue and associated workers</td>
+		<td style="padding-left: 28px;" class="wrap">5.4) Re-write documentation wrt. account creation and meet with Soner’s team.</td>
 		<td></td>
 		<td></td>
 		<td></td>
@@ -744,7 +744,7 @@
 	</tr>
 		
 	<tr>
-		<td style="padding-left: 28px;" class="wrap">5.5) Scale NodeJS web service appropriately using npm-cluster/multiple workers</td>
+		<td style="padding-left: 18px;" class="wrap">6) Re-design RCE/Azure to support multi-cloud submission</td>
 		<td></td>
 		<td></td>
 		<td></td>
@@ -761,7 +761,7 @@
 	</tr>
 		
 	<tr>
-		<td style="padding-left: 28px;" class="wrap">5.6) Implement tests for NodeJS code</td>
+		<td style="padding-left: 28px;" class="wrap">6.1) Use docker containers for applications rather than stored images, export with XPRA.</td>
 		<td></td>
 		<td></td>
 		<td></td>
@@ -778,7 +778,7 @@
 	</tr>
 		
 	<tr>
-		<td style="padding-left: 28px;" class="wrap">5.7) Use Terraform to create abstract cloud configurations for AWS, Azure, Google</td>
+		<td style="padding-left: 28px;" class="wrap">6.2) Install Rancher environment to Clouds</td>
 		<td></td>
 		<td></td>
 		<td></td>
@@ -795,7 +795,7 @@
 	</tr>
 		
 	<tr>
-		<td style="padding-left: 28px;" class="wrap">5.8) Auto-build and test docker images</td>
+		<td style="padding-left: 28px;" class="wrap">6.3) Install Kubernetes environment to Clouds</td>
 		<td></td>
 		<td></td>
 		<td></td>
@@ -812,7 +812,7 @@
 	</tr>
 		
 	<tr>
-		<td style="padding-left: 28px;" class="wrap">5.9) Implement monitoring for RCE Cloud</td>
+		<td style="padding-left: 28px;" class="wrap">6.4) Integrate Harvard Open Nebula</td>
 		<td></td>
 		<td></td>
 		<td></td>
@@ -829,7 +829,7 @@
 	</tr>
 		
 	<tr>
-		<td style="padding-left: 28px;" class="wrap">5.10) Allow mounting of home directories - CI3/CI4 to Azure and CI3/CI4 to Amazon</td>
+		<td style="padding-left: 28px;" class="wrap">6.5) Build REDIS queue and worker to distribute tasks to multiple clouds</td>
 		<td></td>
 		<td></td>
 		<td></td>
@@ -846,7 +846,7 @@
 	</tr>
 		
 	<tr>
-		<td style="padding-left: 28px;" class="wrap">5.11) Pare down and migrate Puppet/Capistrano to GitHub with best practices</td>
+		<td style="padding-left: 28px;" class="wrap">6.6) Build docker images for HTCondor negotiator, collector, and schedd for AWS with redundancy</td>
 		<td></td>
 		<td></td>
 		<td></td>
@@ -863,7 +863,7 @@
 	</tr>
 		
 	<tr>
-		<td style="padding-left: 18px;" class="wrap">6) RCE Cloud public beta release</td>
+		<td style="padding-left: 28px;" class="wrap">6.7) Redesign RCE/Azure application to submit jobs to redis queue and manage jobs through the redis queue and associated workers</td>
 		<td></td>
 		<td></td>
 		<td></td>
@@ -880,7 +880,7 @@
 	</tr>
 		
 	<tr>
-		<td style="padding-left: 18px;" class="wrap">7) Resolve any outstanding bugs acquired from BETA release</td>
+		<td style="padding-left: 28px;" class="wrap">6.8) Scale NodeJS web service appropriately using npm-cluster/multiple workers</td>
 		<td></td>
 		<td></td>
 		<td></td>
@@ -897,7 +897,7 @@
 	</tr>
 		
 	<tr>
-		<td style="padding-left: 18px;" class="wrap">8) Begin to migrate users to RCE Cloud</td>
+		<td style="padding-left: 28px;" class="wrap">6.9) Implement tests for NodeJS code</td>
 		<td></td>
 		<td></td>
 		<td></td>
@@ -914,7 +914,7 @@
 	</tr>
 		
 	<tr>
-		<td style="padding-left: 18px;" class="wrap">9) Migrate/upgrade essential services.</td>
+		<td style="padding-left: 28px;" class="wrap">6.10) Use Terraform to create abstract cloud configurations for AWS, Azure, Google</td>
 		<td></td>
 		<td></td>
 		<td></td>
@@ -931,7 +931,7 @@
 	</tr>
 		
 	<tr>
-		<td style="padding-left: 28px;" class="wrap">9.1) Migrate appropriate DHCP options to Amazon DHCP</td>
+		<td style="padding-left: 28px;" class="wrap">6.11) Auto-build and test docker images</td>
 		<td></td>
 		<td></td>
 		<td></td>
@@ -948,7 +948,7 @@
 	</tr>
 		
 	<tr>
-		<td style="padding-left: 28px;" class="wrap">9.2) Migrate DNS to Route 53/Azure</td>
+		<td style="padding-left: 28px;" class="wrap">6.12) Implement monitoring for RCE Cloud</td>
 		<td></td>
 		<td></td>
 		<td></td>
@@ -965,7 +965,7 @@
 	</tr>
 		
 	<tr>
-		<td style="padding-left: 28px;" class="wrap">9.3) Upgrade/migrate LDAP to CentOS 6/7/Amazon</td>
+		<td style="padding-left: 28px;" class="wrap">6.13) Allow mounting of home directories - CI3/CI4 to Azure and CI3/CI4 to Amazon</td>
 		<td></td>
 		<td></td>
 		<td></td>
@@ -982,7 +982,7 @@
 	</tr>
 		
 	<tr>
-		<td style="padding-left: 38px;" class="wrap">9.3.1) Build and test LDAP on CentOS 7/Amazon</td>
+		<td style="padding-left: 18px;" class="wrap">7) SID public beta release</td>
 		<td></td>
 		<td></td>
 		<td></td>
@@ -999,7 +999,24 @@
 	</tr>
 		
 	<tr>
-		<td style="padding-left: 38px;" class="wrap">9.3.2) Get Amazon certified for Level 4 with Direct Connect.</td>
+		<td style="padding-left: 18px;" class="wrap">8) Resolve any outstanding bugs acquired from BETA release</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+		
+	<tr>
+		<td style="padding-left: 18px;" class="wrap">9) Begin to migrate users to RCE Cloud</td>
 		<td></td>
 		<td></td>
 		<td></td>
@@ -1121,6 +1138,6 @@
         </div><!-- end table wrap -->
 	</div>
     </div><!-- end contentwrap -->
-	 <p class="exported">Exported 2/6/17</p>
+	 <p class="exported">Exported 5/22/17</p>
 </body>
 </html>
