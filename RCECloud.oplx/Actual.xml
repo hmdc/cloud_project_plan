@@ -76,11 +76,11 @@
     <child-task idref="t147"/>
     <child-task idref="t76"/>
     <child-task idref="t149"/>
+    <child-task idref="t170"/>
     <child-task idref="t150"/>
     <child-task idref="t151"/>
     <child-task idref="t154"/>
     <child-task idref="t152"/>
-    <child-task idref="t32"/>
     <child-task idref="t110"/>
   </task>
   <task id="t1">
@@ -208,46 +208,6 @@
         </p>
       </text>
     </note>
-  </task>
-  <task id="t32">
-    <title>Migrate/upgrade essential services.</title>
-    <type>group</type>
-    <child-task idref="t41"/>
-    <child-task idref="t40"/>
-    <child-task idref="t33"/>
-    <prerequisite-task idref="t1"/>
-    <prerequisite-task idref="t76"/>
-  </task>
-  <task id="t33">
-    <title>Upgrade/migrate LDAP to CentOS 6/7/Amazon</title>
-    <type>group</type>
-    <start-constraint-date>2016-08-01T12:00:00.000Z</start-constraint-date>
-    <child-task idref="t134"/>
-    <child-task idref="t135"/>
-    <note>
-      <text>
-        <p>
-          <run>
-            <lit>Maybe put slave hosts in different zones? Expose via Amazon LB. We need to make sure this works for CentOS 7 as well if we go to Azure. De-password-ify LDAP and use CAS to perform password authentication.</lit>
-          </run>
-        </p>
-      </text>
-    </note>
-    <start-no-earlier-than>2016-08-01T12:00:00.000Z</start-no-earlier-than>
-  </task>
-  <task id="t40">
-    <title>Migrate DNS to Route 53/Azure</title>
-    <effort>144000</effort>
-    <effort-done>144000</effort-done>
-    <start-constraint-date>2016-08-01T12:00:00.000Z</start-constraint-date>
-    <start-no-earlier-than>2016-08-01T12:00:00.000Z</start-no-earlier-than>
-  </task>
-  <task id="t41">
-    <title>Migrate appropriate DHCP options to Amazon DHCP</title>
-    <effort>144000</effort>
-    <effort-done>144000</effort-done>
-    <start-constraint-date>2016-08-01T12:00:00.000Z</start-constraint-date>
-    <start-no-earlier-than>2016-08-01T12:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t53">
     <title>Work with Heroku to determine enterprise pricing for the amount of web sites we host.</title>
@@ -515,20 +475,6 @@
     <start-constraint-date>2016-05-04T12:00:00.000Z</start-constraint-date>
     <start-no-earlier-than>2016-05-04T12:00:00.000Z</start-no-earlier-than>
   </task>
-  <task id="t134">
-    <title>Build and test LDAP on CentOS 7/Amazon</title>
-    <effort>28800</effort>
-    <effort-done>28800</effort-done>
-    <start-constraint-date>2016-05-10T12:00:00.000Z</start-constraint-date>
-    <start-no-earlier-than>2016-05-10T12:00:00.000Z</start-no-earlier-than>
-  </task>
-  <task id="t135">
-    <title>Get Amazon certified for Level 4 with Direct Connect.</title>
-    <effort>28800</effort>
-    <effort-done>28800</effort-done>
-    <start-constraint-date>2016-05-10T12:00:00.000Z</start-constraint-date>
-    <start-no-earlier-than>2016-05-10T12:00:00.000Z</start-no-earlier-than>
-  </task>
   <task id="t136">
     <title>Decommission old/unused hardware.</title>
     <effort>1929600</effort>
@@ -555,6 +501,9 @@
     <type>group</type>
     <start-constraint-date>2017-01-01T13:00:00.000Z</start-constraint-date>
     <child-task idref="t157"/>
+    <child-task idref="t178"/>
+    <child-task idref="t179"/>
+    <child-task idref="t180"/>
     <child-task idref="t158"/>
     <child-task idref="t159"/>
     <child-task idref="t160"/>
@@ -564,12 +513,11 @@
     <child-task idref="t165"/>
     <child-task idref="t166"/>
     <child-task idref="t167"/>
-    <child-task idref="t169"/>
     <prerequisite-task idref="t149"/>
     <start-no-earlier-than>2017-01-01T13:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t151">
-    <title>RCE Cloud public beta release</title>
+    <title>SID public beta release</title>
     <type>milestone</type>
     <start-constraint-date>2017-08-01T21:00:00.000Z</start-constraint-date>
     <prerequisite-task idref="t149"/>
@@ -614,7 +562,8 @@
   </task>
   <task id="t160">
     <title>Redesign RCE/Azure application to submit jobs to redis queue and manage jobs through the redis queue and associated workers</title>
-    <effort>633600</effort>
+    <effort>626400</effort>
+    <effort-done>626400</effort-done>
     <start-constraint-date>2017-03-16T12:00:00.000Z</start-constraint-date>
     <assignment idref="r1"/>
     <start-no-earlier-than>2017-03-16T12:00:00.000Z</start-no-earlier-than>
@@ -650,7 +599,7 @@
   <task id="t166">
     <title>Implement monitoring for RCE Cloud</title>
     <effort>950400</effort>
-    <effort-done>95039.9943351746</effort-done>
+    <effort-done>95039.9921875</effort-done>
     <start-constraint-date>2017-06-16T12:00:00.000Z</start-constraint-date>
     <assignment idref="r1"/>
     <start-no-earlier-than>2017-06-16T12:00:00.000Z</start-no-earlier-than>
@@ -662,12 +611,58 @@
     <assignment idref="r1"/>
     <start-no-earlier-than>2017-05-01T12:00:00.000Z</start-no-earlier-than>
   </task>
-  <task id="t169">
-    <title>Pare down and migrate Puppet/Capistrano to GitHub with best practices</title>
-    <effort>4089600</effort>
-    <start-constraint-date>2016-12-12T13:00:00.000Z</start-constraint-date>
-    <assignment idref="r1"/>
-    <start-no-earlier-than>2016-12-12T13:00:00.000Z</start-no-earlier-than>
+  <task id="t170">
+    <title>Re-design authentication/authorization</title>
+    <type>group</type>
+    <start-constraint-date>2017-05-22T12:00:00.000Z</start-constraint-date>
+    <child-task idref="t173"/>
+    <child-task idref="t176"/>
+    <child-task idref="t174"/>
+    <child-task idref="t177"/>
+    <start-no-earlier-than>2017-05-22T12:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t173">
+    <title>Create a small web app — my.hmdc — to sync accounts.</title>
+    <effort>28800</effort>
+    <effort-done>8100</effort-done>
+    <start-constraint-date>2017-05-22T12:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-05-22T12:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t174">
+    <title>Develop re-write engine to sync Harvard Key and local LDAP accounts.</title>
+    <effort>28800</effort>
+    <start-constraint-date>2017-05-22T12:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-05-22T12:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t176">
+    <title>Work with Harvard IAM to develop security procedures around LDAP re-writes.</title>
+    <effort>28800</effort>
+    <start-constraint-date>2017-05-22T12:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-05-22T12:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t177">
+    <title>Re-write documentation wrt. account creation and meet with Soner’s team.</title>
+    <effort>28800</effort>
+    <start-constraint-date>2017-05-22T12:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-05-22T12:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t178">
+    <title>Install Rancher environment to Clouds</title>
+    <effort>28800</effort>
+    <start-constraint-date>2017-05-22T12:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-05-22T12:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t179">
+    <title>Install Kubernetes environment to Clouds</title>
+    <effort>28800</effort>
+    <start-constraint-date>2017-05-22T12:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-05-22T12:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t180">
+    <title>Integrate Harvard Open Nebula</title>
+    <effort>28800</effort>
+    <start-constraint-date>2017-05-22T12:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-05-22T12:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
